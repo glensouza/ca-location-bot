@@ -70,7 +70,7 @@ export class BotComponent implements OnInit {
     this.messages.push({
       text,
       sender: 'Bot',
-      avatar: '/assets/bot.jpeg',
+      avatar: '/assets/bot.jpg',
       date: new Date()
     });
   }
