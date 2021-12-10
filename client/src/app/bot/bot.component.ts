@@ -68,7 +68,7 @@ export class BotComponent implements OnInit {
 
   addBotMessage(text: any) {
     let isOdd: boolean = Boolean(this.messages.length % 2);
-    let avatar = isOdd ? 'assets/images/bot.png' : 'assets/images/bot-1.png';
+    let avatar = isOdd ? '/assets/images/bot.png' : '/assets/images/bot-1.png';
     this.messages.push({
       text,
       sender: 'Bot',
