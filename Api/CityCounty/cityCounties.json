@@ -1,0 +1,7146 @@
+[
+  {
+    "city": "Acampo",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Acton",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Adelaida",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Adelanto",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Adin",
+    "county": "Modoc"
+  },
+  {
+    "city": "Agoura",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Agoura Hills",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Agua Caliente",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Agua Caliente Springs",
+    "county": "San Diego"
+  },
+  {
+    "city": "Agua Dulce",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Aguanga",
+    "county": "Riverside"
+  },
+  {
+    "city": "Ahwahnee",
+    "county": "Madera"
+  },
+  {
+    "city": "Al Tahoe",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Alameda",
+    "county": "Alameda"
+  },
+  {
+    "city": "Alamo",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Albany",
+    "county": "Alameda"
+  },
+  {
+    "city": "Alberhill (Lake Elsinore)",
+    "county": "Riverside"
+  },
+  {
+    "city": "Albion",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Alderpoint",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Alhambra",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Aliso Viejo",
+    "county": "Orange"
+  },
+  {
+    "city": "Alleghany",
+    "county": "Sierra"
+  },
+  {
+    "city": "Almaden Valley",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Almanor",
+    "county": "Plumas"
+  },
+  {
+    "city": "Almondale",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Alondra",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Alpaugh",
+    "county": "Tulare"
+  },
+  {
+    "city": "Alpine",
+    "county": "San Diego"
+  },
+  {
+    "city": "Alta",
+    "county": "Placer"
+  },
+  {
+    "city": "Alta Loma (Rancho Cucamonga)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Altadena",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Altaville",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Alton",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Alturas",
+    "county": "Modoc"
+  },
+  {
+    "city": "Alviso (San Jose)",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Amador City",
+    "county": "Amador"
+  },
+  {
+    "city": "Amargosa (Death Valley)",
+    "county": "Inyo"
+  },
+  {
+    "city": "Amboy",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "American Canyon",
+    "county": "Napa"
+  },
+  {
+    "city": "Anaheim",
+    "county": "Orange"
+  },
+  {
+    "city": "Anderson",
+    "county": "Shasta"
+  },
+  {
+    "city": "Angels Camp",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Angelus Oaks",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Angwin",
+    "county": "Napa"
+  },
+  {
+    "city": "Annapolis",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Antelope",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Antelope Acres",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Antioch",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Anza",
+    "county": "Riverside"
+  },
+  {
+    "city": "Apple Valley",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Applegate",
+    "county": "Placer"
+  },
+  {
+    "city": "Aptos",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Arbuckle",
+    "county": "Colusa"
+  },
+  {
+    "city": "Arcadia",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Arcata",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Argus",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Arleta (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Arlington (Riverside)",
+    "county": "Riverside"
+  },
+  {
+    "city": "Armona",
+    "county": "Kings"
+  },
+  {
+    "city": "Army Terminal",
+    "county": "Alameda"
+  },
+  {
+    "city": "Arnold",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Aromas",
+    "county": "Monterey"
+  },
+  {
+    "city": "Aromas",
+    "county": "San Benito"
+  },
+  {
+    "city": "Arrowbear Lake",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Arrowhead Highlands",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Arroyo Grande",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Artesia",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Artois",
+    "county": "Glenn"
+  },
+  {
+    "city": "Arvin",
+    "county": "Kern"
+  },
+  {
+    "city": "Ashland",
+    "county": "Alameda"
+  },
+  {
+    "city": "Asti",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Atascadero",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Athens",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Atherton",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Atwater",
+    "county": "Merced"
+  },
+  {
+    "city": "Atwood",
+    "county": "Orange"
+  },
+  {
+    "city": "Auberry",
+    "county": "Fresno"
+  },
+  {
+    "city": "Auburn",
+    "county": "Placer"
+  },
+  {
+    "city": "Avalon",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Avenal",
+    "county": "Kings"
+  },
+  {
+    "city": "Avery",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Avila Beach",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Azusa",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Badger",
+    "county": "Tulare"
+  },
+  {
+    "city": "Bailey",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Baker",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Bakersfield",
+    "county": "Kern"
+  },
+  {
+    "city": "Balboa (Newport Beach)",
+    "county": "Orange"
+  },
+  {
+    "city": "Balboa Island (Newport Beach)",
+    "county": "Orange"
+  },
+  {
+    "city": "Balboa Park (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Baldwin Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Ballard",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Ballico",
+    "county": "Merced"
+  },
+  {
+    "city": "Ballroad",
+    "county": "Orange"
+  },
+  {
+    "city": "Bangor",
+    "county": "Butte"
+  },
+  {
+    "city": "Banning",
+    "county": "Riverside"
+  },
+  {
+    "city": "Banta",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Bard",
+    "county": "Imperial"
+  },
+  {
+    "city": "Barrington",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Barstow",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Bartlett",
+    "county": "Inyo"
+  },
+  {
+    "city": "Barton",
+    "county": "Fresno"
+  },
+  {
+    "city": "Base Line",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Bass Lake",
+    "county": "Madera"
+  },
+  {
+    "city": "Bassett",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Baxter",
+    "county": "Placer"
+  },
+  {
+    "city": "Bay Point (formally West Pittsburg)",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Bayside",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Baywood Park",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Beale A.F.B.",
+    "county": "Yuba"
+  },
+  {
+    "city": "Bear River Lake",
+    "county": "Amador"
+  },
+  {
+    "city": "Bear Valley",
+    "county": "Alpine"
+  },
+  {
+    "city": "Bear Valley",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Beaumont",
+    "county": "Riverside"
+  },
+  {
+    "city": "Beckwourth",
+    "county": "Plumas"
+  },
+  {
+    "city": "Bel Air Estates (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Belden",
+    "county": "Plumas"
+  },
+  {
+    "city": "Bell Gardens",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Bell",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Bella Vista",
+    "county": "Shasta"
+  },
+  {
+    "city": "Bellflower",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Belmont",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Belvedere",
+    "county": "Marin"
+  },
+  {
+    "city": "Ben Lomond",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Benicia",
+    "county": "Solano"
+  },
+  {
+    "city": "Benton",
+    "county": "Mono"
+  },
+  {
+    "city": "Berkeley",
+    "county": "Alameda"
+  },
+  {
+    "city": "Bermuda Dunes",
+    "county": "Riverside"
+  },
+  {
+    "city": "Berry Creek",
+    "county": "Butte"
+  },
+  {
+    "city": "Bethel Island",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Betteravia",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Beverly Hills",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Bieber",
+    "county": "Lassen"
+  },
+  {
+    "city": "Big Bar",
+    "county": "Trinity"
+  },
+  {
+    "city": "Big Basin",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Big Bear City",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Big Bear Lake",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Big Bend",
+    "county": "Shasta"
+  },
+  {
+    "city": "Big Creek",
+    "county": "Fresno"
+  },
+  {
+    "city": "Big Oak Flat",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Big Pine",
+    "county": "Inyo"
+  },
+  {
+    "city": "Big River",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Big Sur",
+    "county": "Monterey"
+  },
+  {
+    "city": "Biggs",
+    "county": "Butte"
+  },
+  {
+    "city": "Bijou",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Biola",
+    "county": "Fresno"
+  },
+  {
+    "city": "Biola College (La Mirada)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Birds Landing",
+    "county": "Solano"
+  },
+  {
+    "city": "Bishop",
+    "county": "Inyo"
+  },
+  {
+    "city": "Black Hawk",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Blairsden",
+    "county": "Plumas"
+  },
+  {
+    "city": "Blocksburg",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Bloomington",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Blossom Hill",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Blossom Valley",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Blue Jay",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Blue Lake",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Blythe",
+    "county": "Riverside"
+  },
+  {
+    "city": "Bodega",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Bodega Bay",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Bodfish",
+    "county": "Kern"
+  },
+  {
+    "city": "Bolinas",
+    "county": "Marin"
+  },
+  {
+    "city": "Bolsa",
+    "county": "Orange"
+  },
+  {
+    "city": "Bombay Beach",
+    "county": "Imperial"
+  },
+  {
+    "city": "Bonita",
+    "county": "San Diego"
+  },
+  {
+    "city": "Bonny Doon",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Bonsall",
+    "county": "San Diego"
+  },
+  {
+    "city": "Boonville",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Boron",
+    "county": "Kern"
+  },
+  {
+    "city": "Borrego Springs",
+    "county": "San Diego"
+  },
+  {
+    "city": "Bostonia",
+    "county": "San Diego"
+  },
+  {
+    "city": "Boulder Creek",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Boulevard",
+    "county": "San Diego"
+  },
+  {
+    "city": "Bouquet Canyon (Santa Clarita)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Bowman",
+    "county": "Placer"
+  },
+  {
+    "city": "Boyes Hot Springs",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Bradbury",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Bradford",
+    "county": "Alameda"
+  },
+  {
+    "city": "Bradley",
+    "county": "Monterey"
+  },
+  {
+    "city": "Branscomb",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Brawley",
+    "county": "Imperial"
+  },
+  {
+    "city": "Brea",
+    "county": "Orange"
+  },
+  {
+    "city": "Brents Junction",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Brentwood (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Brentwood",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Briceland",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Bridgeport",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Bridgeport",
+    "county": "Mono"
+  },
+  {
+    "city": "Bridgeville",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Brisbane",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Broderick (West Sacramento)",
+    "county": "Yolo"
+  },
+  {
+    "city": "Brookdale",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Brookhurst Center",
+    "county": "Orange"
+  },
+  {
+    "city": "Brooks",
+    "county": "Yolo"
+  },
+  {
+    "city": "Browns Valley",
+    "county": "Yuba"
+  },
+  {
+    "city": "Brownsville",
+    "county": "Yuba"
+  },
+  {
+    "city": "Bryn Mawr",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Bryte (West Sacramento)",
+    "county": "Yolo"
+  },
+  {
+    "city": "Buellton",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Buena Park",
+    "county": "Orange"
+  },
+  {
+    "city": "Burbank",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Burlingame",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Burney",
+    "county": "Shasta"
+  },
+  {
+    "city": "Burnt Ranch",
+    "county": "Trinity"
+  },
+  {
+    "city": "Burrel",
+    "county": "Fresno"
+  },
+  {
+    "city": "Burson",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Butte City",
+    "county": "Glenn"
+  },
+  {
+    "city": "Butte Meadows",
+    "county": "Butte"
+  },
+  {
+    "city": "Buttonwillow",
+    "county": "Kern"
+  },
+  {
+    "city": "Byron",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Cabazon",
+    "county": "Riverside"
+  },
+  {
+    "city": "Cabrillo",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Cadiz",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Calabasas Highlands",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Calabasas Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Calabasas",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Calexico",
+    "county": "Imperial"
+  },
+  {
+    "city": "Caliente",
+    "county": "Kern"
+  },
+  {
+    "city": "California City",
+    "county": "Kern"
+  },
+  {
+    "city": "California Hot Springs",
+    "county": "Tulare"
+  },
+  {
+    "city": "California Valley",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Calimesa",
+    "county": "Riverside"
+  },
+  {
+    "city": "Calipatria",
+    "county": "Imperial"
+  },
+  {
+    "city": "Calistoga",
+    "county": "Napa"
+  },
+  {
+    "city": "Callahan",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Calpella",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Calpine",
+    "county": "Sierra"
+  },
+  {
+    "city": "Calwa",
+    "county": "Fresno"
+  },
+  {
+    "city": "Camarillo",
+    "county": "Ventura"
+  },
+  {
+    "city": "Cambria",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Cambrian Park",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Cameron Park",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Camino",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Camp Beale",
+    "county": "Yuba"
+  },
+  {
+    "city": "Camp Connell",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Camp Curry",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Camp Kaweah",
+    "county": "Tulare"
+  },
+  {
+    "city": "Camp Meeker",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Camp Nelson",
+    "county": "Tulare"
+  },
+  {
+    "city": "Camp Pendleton",
+    "county": "San Diego"
+  },
+  {
+    "city": "Camp Roberts",
+    "county": "Monterey"
+  },
+  {
+    "city": "Campbell",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Campo",
+    "county": "San Diego"
+  },
+  {
+    "city": "Campo Seco",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Camptonville",
+    "county": "Yuba"
+  },
+  {
+    "city": "Canby",
+    "county": "Modoc"
+  },
+  {
+    "city": "Canoga Annex",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Canoga Park (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Cantil",
+    "county": "Kern"
+  },
+  {
+    "city": "Cantua Creek",
+    "county": "Fresno"
+  },
+  {
+    "city": "Canyon",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Canyon Country (Santa Clarita)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Canyon Lake",
+    "county": "Riverside"
+  },
+  {
+    "city": "Canyondam",
+    "county": "Plumas"
+  },
+  {
+    "city": "Capay",
+    "county": "Yolo"
+  },
+  {
+    "city": "Capistrano Beach (Dana Point)",
+    "county": "Orange"
+  },
+  {
+    "city": "Capitola",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Cardiff By The Sea (Encinitas)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Cardwell",
+    "county": "Fresno"
+  },
+  {
+    "city": "Carlotta",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Carlsbad",
+    "county": "San Diego"
+  },
+  {
+    "city": "Carmel Rancho",
+    "county": "Monterey"
+  },
+  {
+    "city": "Carmel Valley",
+    "county": "Monterey"
+  },
+  {
+    "city": "Carmel-by-the-Sea",
+    "county": "Monterey"
+  },
+  {
+    "city": "Carmichael",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Carnelian Bay",
+    "county": "Placer"
+  },
+  {
+    "city": "Carpinteria",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Carson",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Cartago",
+    "county": "Inyo"
+  },
+  {
+    "city": "Caruthers",
+    "county": "Fresno"
+  },
+  {
+    "city": "Casitas Springs",
+    "county": "Ventura"
+  },
+  {
+    "city": "Casmalia",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Caspar",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Cassel",
+    "county": "Shasta"
+  },
+  {
+    "city": "Castaic",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Castella",
+    "county": "Shasta"
+  },
+  {
+    "city": "Castle A.F.B.",
+    "county": "Merced"
+  },
+  {
+    "city": "Castro Valley",
+    "county": "Alameda"
+  },
+  {
+    "city": "Castroville",
+    "county": "Monterey"
+  },
+  {
+    "city": "Cathedral City",
+    "county": "Riverside"
+  },
+  {
+    "city": "Catheys Valley",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Cayucos",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Cazadero",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Cecilville",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Cedar",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Cedar Crest",
+    "county": "Fresno"
+  },
+  {
+    "city": "Cedar Glen",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Cedar Ridge",
+    "county": "Nevada"
+  },
+  {
+    "city": "Cedarpines Park",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Cedarville",
+    "county": "Modoc"
+  },
+  {
+    "city": "Central Valley",
+    "county": "Shasta"
+  },
+  {
+    "city": "Century City (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Ceres",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Cerritos",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Challenge",
+    "county": "Yuba"
+  },
+  {
+    "city": "Chambers Lodge",
+    "county": "Placer"
+  },
+  {
+    "city": "Charter Oak",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Chatsworth (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Cherry Valley",
+    "county": "Riverside"
+  },
+  {
+    "city": "Chester",
+    "county": "Plumas"
+  },
+  {
+    "city": "Chicago Park",
+    "county": "Nevada"
+  },
+  {
+    "city": "Chico",
+    "county": "Butte"
+  },
+  {
+    "city": "Chilcoot",
+    "county": "Plumas"
+  },
+  {
+    "city": "China Lake NWC (Ridgecrest)",
+    "county": "Kern"
+  },
+  {
+    "city": "Chinese Camp",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Chino Hills",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Chino",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Chiriaco Summit",
+    "county": "Riverside"
+  },
+  {
+    "city": "Cholame",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Chowchilla",
+    "county": "Madera"
+  },
+  {
+    "city": "Chualar",
+    "county": "Monterey"
+  },
+  {
+    "city": "Chula Vista",
+    "county": "San Diego"
+  },
+  {
+    "city": "Cima",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Citrus Heights",
+    "county": "Sacramento"
+  },
+  {
+    "city": "City of Commerce",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "City of Industry",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "City Terrace",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Claremont",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Clarksburg",
+    "county": "Yolo"
+  },
+  {
+    "city": "Clayton",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Clear Creek",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Clearlake Highlands (Clearlake)",
+    "county": "Lake"
+  },
+  {
+    "city": "Clearlake Oaks",
+    "county": "Lake"
+  },
+  {
+    "city": "Clearlake Park (Clearlake)",
+    "county": "Lake"
+  },
+  {
+    "city": "Clearlake",
+    "county": "Lake"
+  },
+  {
+    "city": "Clements",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Clinter",
+    "county": "Fresno"
+  },
+  {
+    "city": "Clio",
+    "county": "Plumas"
+  },
+  {
+    "city": "Clipper Mills",
+    "county": "Butte"
+  },
+  {
+    "city": "Cloverdale",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Clovis",
+    "county": "Fresno"
+  },
+  {
+    "city": "Coachella",
+    "county": "Riverside"
+  },
+  {
+    "city": "Coalinga",
+    "county": "Fresno"
+  },
+  {
+    "city": "Coarsegold",
+    "county": "Madera"
+  },
+  {
+    "city": "Cobb",
+    "county": "Lake"
+  },
+  {
+    "city": "Cohasset",
+    "county": "Butte"
+  },
+  {
+    "city": "Cole",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Coleville",
+    "county": "Mono"
+  },
+  {
+    "city": "Colfax",
+    "county": "Placer"
+  },
+  {
+    "city": "College City",
+    "county": "Colusa"
+  },
+  {
+    "city": "College Grove Center",
+    "county": "San Diego"
+  },
+  {
+    "city": "Colma",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Coloma",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Colorado",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Colton",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Columbia",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Colusa",
+    "county": "Colusa"
+  },
+  {
+    "city": "Commerce",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Comptche",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Compton",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Concord",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Cool",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Copperopolis",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Corcoran",
+    "county": "Kings"
+  },
+  {
+    "city": "Cornell",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Corning",
+    "county": "Tehama"
+  },
+  {
+    "city": "Corona Del Mar (Newport Beach)",
+    "county": "Orange"
+  },
+  {
+    "city": "Corona",
+    "county": "Riverside"
+  },
+  {
+    "city": "Coronado",
+    "county": "San Diego"
+  },
+  {
+    "city": "Corralitos",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Corte Madera",
+    "county": "Marin"
+  },
+  {
+    "city": "Coso Junction",
+    "county": "Inyo"
+  },
+  {
+    "city": "Costa Mesa",
+    "county": "Orange"
+  },
+  {
+    "city": "Cotati",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Coto De Caza",
+    "county": "Orange"
+  },
+  {
+    "city": "Cottonwood",
+    "county": "Shasta"
+  },
+  {
+    "city": "Coulterville",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Courtland",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Covelo",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Covina",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Cowan Heights",
+    "county": "Orange"
+  },
+  {
+    "city": "Coyote",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Crannell",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Crenshaw (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Crescent City",
+    "county": "Del Norte"
+  },
+  {
+    "city": "Crescent Mills",
+    "county": "Plumas"
+  },
+  {
+    "city": "Cressey",
+    "county": "Merced"
+  },
+  {
+    "city": "Crest",
+    "county": "San Diego"
+  },
+  {
+    "city": "Crest Park",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Cresta Blanca",
+    "county": "Alameda"
+  },
+  {
+    "city": "Crestline",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Creston",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Crockett",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Cromberg",
+    "county": "Plumas"
+  },
+  {
+    "city": "Cross Roads",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Crowley Lake",
+    "county": "Mono"
+  },
+  {
+    "city": "Crows Landing",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Cucamonga (Rancho Cucamonga)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Cudahy",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Culver City",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Cummings",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Cupertino",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Curry Village",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Cutler",
+    "county": "Tulare"
+  },
+  {
+    "city": "Cutten",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Cuyama",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Cypress",
+    "county": "Orange"
+  },
+  {
+    "city": "Daggett",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Dairy Farm",
+    "county": "Solano"
+  },
+  {
+    "city": "Daly City",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Dana Point",
+    "county": "Orange"
+  },
+  {
+    "city": "Danville",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Dardanelle",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Darwin",
+    "county": "Inyo"
+  },
+  {
+    "city": "Davenport",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Davis (U.C. Davis campus rate is 7.25%)",
+    "county": "Yolo"
+  },
+  {
+    "city": "Davis Creek",
+    "county": "Modoc"
+  },
+  {
+    "city": "Death Valley",
+    "county": "Inyo"
+  },
+  {
+    "city": "Death Valley Junction",
+    "county": "Inyo"
+  },
+  {
+    "city": "Deer Park",
+    "county": "Napa"
+  },
+  {
+    "city": "Del Kern (Bakersfield)",
+    "county": "Kern"
+  },
+  {
+    "city": "Del Mar Heights (Morro Bay)",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Del Mar",
+    "county": "San Diego"
+  },
+  {
+    "city": "Del Monte Grove (Monterey)",
+    "county": "Monterey"
+  },
+  {
+    "city": "Del Rey",
+    "county": "Fresno"
+  },
+  {
+    "city": "Del Rey Oaks",
+    "county": "Monterey"
+  },
+  {
+    "city": "Del Rosa",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Del Sur",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Delano",
+    "county": "Kern"
+  },
+  {
+    "city": "Deleven",
+    "county": "Colusa"
+  },
+  {
+    "city": "Delhi",
+    "county": "Merced"
+  },
+  {
+    "city": "Denair",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Denny",
+    "county": "Trinity"
+  },
+  {
+    "city": "Descanso",
+    "county": "San Diego"
+  },
+  {
+    "city": "Desert Center",
+    "county": "Riverside"
+  },
+  {
+    "city": "Desert Hot Springs",
+    "county": "Riverside"
+  },
+  {
+    "city": "Di Giorgio",
+    "county": "Kern"
+  },
+  {
+    "city": "Diablo",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Diamond Bar",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Diamond Springs",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Dillon Beach",
+    "county": "Marin"
+  },
+  {
+    "city": "Dinkey Creek",
+    "county": "Fresno"
+  },
+  {
+    "city": "Dinuba",
+    "county": "Tulare"
+  },
+  {
+    "city": "Discovery Bay",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Dixon",
+    "county": "Solano"
+  },
+  {
+    "city": "Dobbins",
+    "county": "Yuba"
+  },
+  {
+    "city": "Dogtown",
+    "county": "Marin"
+  },
+  {
+    "city": "Dollar Ranch",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Dorris",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Dos Palos",
+    "county": "Merced"
+  },
+  {
+    "city": "Dos Rios",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Douglas City",
+    "county": "Trinity"
+  },
+  {
+    "city": "Douglas Flat",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Downey",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Downieville",
+    "county": "Sierra"
+  },
+  {
+    "city": "Doyle",
+    "county": "Lassen"
+  },
+  {
+    "city": "Drytown",
+    "county": "Amador"
+  },
+  {
+    "city": "Duarte",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Dublin",
+    "county": "Alameda"
+  },
+  {
+    "city": "Ducor",
+    "county": "Tulare"
+  },
+  {
+    "city": "Dulzura",
+    "county": "San Diego"
+  },
+  {
+    "city": "Duncans Mills",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Dunlap",
+    "county": "Fresno"
+  },
+  {
+    "city": "Dunnigan",
+    "county": "Yolo"
+  },
+  {
+    "city": "Dunsmuir",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Durham",
+    "county": "Butte"
+  },
+  {
+    "city": "Dutch Flat",
+    "county": "Placer"
+  },
+  {
+    "city": "Eagle Mountain",
+    "county": "Riverside"
+  },
+  {
+    "city": "Eagle Rock (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Eagleville",
+    "county": "Modoc"
+  },
+  {
+    "city": "Earlimart",
+    "county": "Tulare"
+  },
+  {
+    "city": "Earp",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "East Highlands (Highland)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "East Irvine (Irvine)",
+    "county": "Orange"
+  },
+  {
+    "city": "East Los Angeles",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "East Lynwood (Lynwood)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "East Nicolaus",
+    "county": "Sutter"
+  },
+  {
+    "city": "East Palo Alto",
+    "county": "San Mateo"
+  },
+  {
+    "city": "East Porterville",
+    "county": "Tulare"
+  },
+  {
+    "city": "East Rancho Dominguez",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "East San Pedro (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Eastgate",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Easton",
+    "county": "Fresno"
+  },
+  {
+    "city": "Eastside",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Eastvale",
+    "county": "Riverside"
+  },
+  {
+    "city": "Echo Lake",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Echo Park (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Edgemont (Moreno Valley)",
+    "county": "Riverside"
+  },
+  {
+    "city": "Edgewood",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Edison",
+    "county": "Kern"
+  },
+  {
+    "city": "Edwards",
+    "county": "Kern"
+  },
+  {
+    "city": "Edwards A.F.B.",
+    "county": "Kern"
+  },
+  {
+    "city": "El Cajon",
+    "county": "San Diego"
+  },
+  {
+    "city": "El Centro",
+    "county": "Imperial"
+  },
+  {
+    "city": "El Cerrito",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "El Dorado",
+    "county": "El Dorado"
+  },
+  {
+    "city": "El Dorado Hills",
+    "county": "El Dorado"
+  },
+  {
+    "city": "El Granada",
+    "county": "San Mateo"
+  },
+  {
+    "city": "El Macero",
+    "county": "Yolo"
+  },
+  {
+    "city": "El Modena",
+    "county": "Orange"
+  },
+  {
+    "city": "El Monte",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "El Nido",
+    "county": "Merced"
+  },
+  {
+    "city": "El Portal",
+    "county": "Mariposa"
+  },
+  {
+    "city": "El Segundo",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "El Sobrante",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "El Toro (Lake Forest)",
+    "county": "Orange"
+  },
+  {
+    "city": "El Toro M.C.A.S.",
+    "county": "Orange"
+  },
+  {
+    "city": "El Verano",
+    "county": "Sonoma"
+  },
+  {
+    "city": "El Viejo",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Eldridge",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Elizabeth Lake",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Elk",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Elk Creek",
+    "county": "Glenn"
+  },
+  {
+    "city": "Elk Grove",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Elmira",
+    "county": "Solano"
+  },
+  {
+    "city": "Elmwood",
+    "county": "Alameda"
+  },
+  {
+    "city": "Elverta",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Emerald Hills (Redwood City)",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Emeryville",
+    "county": "Alameda"
+  },
+  {
+    "city": "Emigrant Gap",
+    "county": "Placer"
+  },
+  {
+    "city": "Empire",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Encinitas",
+    "county": "San Diego"
+  },
+  {
+    "city": "Encino (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Enterprise",
+    "county": "Shasta"
+  },
+  {
+    "city": "Escalon",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Escondido",
+    "county": "San Diego"
+  },
+  {
+    "city": "Esparto",
+    "county": "Yolo"
+  },
+  {
+    "city": "Essex",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Etiwanda (Rancho Cucamonga)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Etna",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Ettersburg",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Eureka",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Exeter",
+    "county": "Tulare"
+  },
+  {
+    "city": "Fair Oaks",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Fairfax",
+    "county": "Marin"
+  },
+  {
+    "city": "Fairfield",
+    "county": "Solano"
+  },
+  {
+    "city": "Fairmount",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Fall River Mills",
+    "county": "Shasta"
+  },
+  {
+    "city": "Fallbrook",
+    "county": "San Diego"
+  },
+  {
+    "city": "Fallbrook Junction",
+    "county": "San Diego"
+  },
+  {
+    "city": "Fallen Leaf",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Fallon",
+    "county": "Marin"
+  },
+  {
+    "city": "Fancher",
+    "county": "Fresno"
+  },
+  {
+    "city": "Farmersville",
+    "county": "Tulare"
+  },
+  {
+    "city": "Farmington",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Fawnskin",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Feather Falls",
+    "county": "Butte"
+  },
+  {
+    "city": "Fellows",
+    "county": "Kern"
+  },
+  {
+    "city": "Felton",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Fenner",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Fernbridge (Fortuna)",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Ferndale",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Fiddletown",
+    "county": "Amador"
+  },
+  {
+    "city": "Fields Landing",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Fig Garden Village (Fresno)",
+    "county": "Fresno"
+  },
+  {
+    "city": "Fillmore",
+    "county": "Ventura"
+  },
+  {
+    "city": "Finley",
+    "county": "Lake"
+  },
+  {
+    "city": "Firebaugh",
+    "county": "Fresno"
+  },
+  {
+    "city": "Fish Camp",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Five Points",
+    "county": "Fresno"
+  },
+  {
+    "city": "Flinn Springs",
+    "county": "San Diego"
+  },
+  {
+    "city": "Flintridge (LaCanada/ Flintridge)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Florence",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Floriston",
+    "county": "Nevada"
+  },
+  {
+    "city": "Flournoy",
+    "county": "Tehama"
+  },
+  {
+    "city": "Folsom",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Fontana",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Foothill Ranch",
+    "county": "Orange"
+  },
+  {
+    "city": "Forbestown",
+    "county": "Butte"
+  },
+  {
+    "city": "Forest Falls",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Forest Glen",
+    "county": "Trinity"
+  },
+  {
+    "city": "Forest Knolls",
+    "county": "Marin"
+  },
+  {
+    "city": "Forest Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Forest Ranch",
+    "county": "Butte"
+  },
+  {
+    "city": "Foresthill",
+    "county": "Placer"
+  },
+  {
+    "city": "Forestville",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Forks of Salmon",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Fort Bidwell",
+    "county": "Modoc"
+  },
+  {
+    "city": "Fort Bragg",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Fort Dick",
+    "county": "Del Norte"
+  },
+  {
+    "city": "Fort Irwin",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Fort Jones",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Fort Ord",
+    "county": "Monterey"
+  },
+  {
+    "city": "Fort Ord (Marina)",
+    "county": "Monterey"
+  },
+  {
+    "city": "Fort Ord (Seaside)",
+    "county": "Monterey"
+  },
+  {
+    "city": "Fort Seward",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Fortuna",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Foster City",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Fountain Valley",
+    "county": "Orange"
+  },
+  {
+    "city": "Fowler",
+    "county": "Fresno"
+  },
+  {
+    "city": "Frazier Park",
+    "county": "Kern"
+  },
+  {
+    "city": "Freedom",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Freedom (Watsonville)",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Freeport",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Freestone",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Fremont",
+    "county": "Alameda"
+  },
+  {
+    "city": "French Camp",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "French Gulch",
+    "county": "Shasta"
+  },
+  {
+    "city": "Freshwater",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Fresno",
+    "county": "Fresno"
+  },
+  {
+    "city": "Friant",
+    "county": "Fresno"
+  },
+  {
+    "city": "Friendly Valley (Santa Clarita)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Frontera",
+    "county": "Riverside"
+  },
+  {
+    "city": "Fullerton",
+    "county": "Orange"
+  },
+  {
+    "city": "Fulton",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Galt",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Garberville",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Garden Grove",
+    "county": "Orange"
+  },
+  {
+    "city": "Garden Valley",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Gardena",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Garey",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Garnet",
+    "county": "Riverside"
+  },
+  {
+    "city": "Gasquet",
+    "county": "Del Norte"
+  },
+  {
+    "city": "Gaviota",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Gazelle",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "George A.F.B.",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Georgetown",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Gerber",
+    "county": "Tehama"
+  },
+  {
+    "city": "Geyserville",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Giant Forest",
+    "county": "Tulare"
+  },
+  {
+    "city": "Gillman Hot Springs",
+    "county": "Riverside"
+  },
+  {
+    "city": "Gilroy",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Glassell Park (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Glen Avon",
+    "county": "Riverside"
+  },
+  {
+    "city": "Glen Ellen",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Glenburn",
+    "county": "Shasta"
+  },
+  {
+    "city": "Glencoe",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Glendale",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Glendora",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Glenhaven",
+    "county": "Lake"
+  },
+  {
+    "city": "Glenn",
+    "county": "Glenn"
+  },
+  {
+    "city": "Glennville",
+    "county": "Kern"
+  },
+  {
+    "city": "Gold River",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Gold Run",
+    "county": "Placer"
+  },
+  {
+    "city": "Golden Hills",
+    "county": "Kern"
+  },
+  {
+    "city": "Goleta",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Gonzales",
+    "county": "Monterey"
+  },
+  {
+    "city": "Goodyears Bar",
+    "county": "Sierra"
+  },
+  {
+    "city": "Gorman",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Goshen",
+    "county": "Tulare"
+  },
+  {
+    "city": "Government Island",
+    "county": "Alameda"
+  },
+  {
+    "city": "Graeagle",
+    "county": "Plumas"
+  },
+  {
+    "city": "Granada Hills (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Grand Terrace",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Granite Bay",
+    "county": "Placer"
+  },
+  {
+    "city": "Grass Valley",
+    "county": "Nevada"
+  },
+  {
+    "city": "Graton",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Green Valley",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Green Valley Lake",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Greenacres",
+    "county": "Kern"
+  },
+  {
+    "city": "Greenbrae (Larkspur)",
+    "county": "Marin"
+  },
+  {
+    "city": "Greenfield",
+    "county": "Monterey"
+  },
+  {
+    "city": "Greenview",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Greenville",
+    "county": "Plumas"
+  },
+  {
+    "city": "Greenwood",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Grenada",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Gridley",
+    "county": "Butte"
+  },
+  {
+    "city": "Grimes",
+    "county": "Colusa"
+  },
+  {
+    "city": "Grizzly Flats",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Groveland",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Grover Beach",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Guadalupe",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Gualala",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Guasti (Ontario)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Guatay",
+    "county": "San Diego"
+  },
+  {
+    "city": "Guerneville",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Guinda",
+    "county": "Yolo"
+  },
+  {
+    "city": "Gustine",
+    "county": "Merced"
+  },
+  {
+    "city": "Hacienda Heights",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Halcyon",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Half Moon Bay",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Hamilton A.F.B. (Novato)",
+    "county": "Marin"
+  },
+  {
+    "city": "Hamilton City",
+    "county": "Glenn"
+  },
+  {
+    "city": "Hanford",
+    "county": "Kings"
+  },
+  {
+    "city": "Happy Camp",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Harbison Canyon",
+    "county": "San Diego"
+  },
+  {
+    "city": "Harbor City (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Harmony",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Harris",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Hat Creek",
+    "county": "Shasta"
+  },
+  {
+    "city": "Hathaway Pines",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Havasu Lake",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Hawaiian Gardens",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Hawthorne",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Hayfork",
+    "county": "Trinity"
+  },
+  {
+    "city": "Hayward",
+    "county": "Alameda"
+  },
+  {
+    "city": "Hazard",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Healdsburg",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Heber",
+    "county": "Imperial"
+  },
+  {
+    "city": "Helena",
+    "county": "Trinity"
+  },
+  {
+    "city": "Helendale",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Helm",
+    "county": "Fresno"
+  },
+  {
+    "city": "Hemet",
+    "county": "Riverside"
+  },
+  {
+    "city": "Herald",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Hercules",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Herlong",
+    "county": "Lassen"
+  },
+  {
+    "city": "Hermosa Beach",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Herndon",
+    "county": "Fresno"
+  },
+  {
+    "city": "Hesperia",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Heyer",
+    "county": "Alameda"
+  },
+  {
+    "city": "Hickman",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Hidden Hills",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Highgrove",
+    "county": "Riverside"
+  },
+  {
+    "city": "Highland Park (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Highland",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Highway City (Fresno)",
+    "county": "Fresno"
+  },
+  {
+    "city": "Hillcrest (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Hillsborough",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Hillsdale (San Mateo)",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Hilmar",
+    "county": "Merced"
+  },
+  {
+    "city": "Hilt",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Hinkley",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Hobergs",
+    "county": "Lake"
+  },
+  {
+    "city": "Hollister",
+    "county": "San Benito"
+  },
+  {
+    "city": "Hollywood (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Holmes",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Holt",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Holtville",
+    "county": "Imperial"
+  },
+  {
+    "city": "Holy City",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Homeland",
+    "county": "Riverside"
+  },
+  {
+    "city": "Homestead",
+    "county": "Kern"
+  },
+  {
+    "city": "Homestead",
+    "county": "Riverside"
+  },
+  {
+    "city": "Homewood",
+    "county": "Placer"
+  },
+  {
+    "city": "Honby",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Honeydew",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Hood",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Hoopa",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Hope Valley (Forest Camp)",
+    "county": "Alpine"
+  },
+  {
+    "city": "Hopland",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Hornbrook",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Hornitos",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Horse Creek",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Horse Lake",
+    "county": "Lassen"
+  },
+  {
+    "city": "Hughson",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Hume",
+    "county": "Fresno"
+  },
+  {
+    "city": "Huntington",
+    "county": "Orange"
+  },
+  {
+    "city": "Huntington Beach",
+    "county": "Orange"
+  },
+  {
+    "city": "Huntington Lake",
+    "county": "Fresno"
+  },
+  {
+    "city": "Huntington Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Huron",
+    "county": "Fresno"
+  },
+  {
+    "city": "Hyampom",
+    "county": "Trinity"
+  },
+  {
+    "city": "Hyde Park (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Hydesville",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Idria",
+    "county": "San Benito"
+  },
+  {
+    "city": "Idyllwild",
+    "county": "Riverside"
+  },
+  {
+    "city": "Ignacio (Novato)",
+    "county": "Marin"
+  },
+  {
+    "city": "Igo",
+    "county": "Shasta"
+  },
+  {
+    "city": "Imola (Napa)",
+    "county": "Napa"
+  },
+  {
+    "city": "Imperial Beach",
+    "county": "San Diego"
+  },
+  {
+    "city": "Imperial",
+    "county": "Imperial"
+  },
+  {
+    "city": "Independence",
+    "county": "Inyo"
+  },
+  {
+    "city": "Indian Wells",
+    "county": "Riverside"
+  },
+  {
+    "city": "Indio",
+    "county": "Riverside"
+  },
+  {
+    "city": "Industry",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Inglewood",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Inverness",
+    "county": "Marin"
+  },
+  {
+    "city": "Inyo",
+    "county": "Inyo"
+  },
+  {
+    "city": "Inyokern",
+    "county": "Kern"
+  },
+  {
+    "city": "Ione",
+    "county": "Amador"
+  },
+  {
+    "city": "Iowa Hill",
+    "county": "Placer"
+  },
+  {
+    "city": "Irvine",
+    "county": "Orange"
+  },
+  {
+    "city": "Irwindale",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Isla Vista",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Island Mountain",
+    "county": "Trinity"
+  },
+  {
+    "city": "Isleton",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Ivanhoe",
+    "county": "Tulare"
+  },
+  {
+    "city": "Ivanpah",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Jackson",
+    "county": "Amador"
+  },
+  {
+    "city": "Jacumba",
+    "county": "San Diego"
+  },
+  {
+    "city": "Jamacha",
+    "county": "San Diego"
+  },
+  {
+    "city": "Jamestown",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Jamul",
+    "county": "San Diego"
+  },
+  {
+    "city": "Janesville",
+    "county": "Lassen"
+  },
+  {
+    "city": "Jenner",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Johannesburg",
+    "county": "Kern"
+  },
+  {
+    "city": "Johnsondale",
+    "county": "Tulare"
+  },
+  {
+    "city": "Johnstonville",
+    "county": "Lassen"
+  },
+  {
+    "city": "Johnstown",
+    "county": "San Diego"
+  },
+  {
+    "city": "Jolon",
+    "county": "Monterey"
+  },
+  {
+    "city": "Joshua Tree",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Julian",
+    "county": "San Diego"
+  },
+  {
+    "city": "Junction City",
+    "county": "Trinity"
+  },
+  {
+    "city": "June Lake",
+    "county": "Mono"
+  },
+  {
+    "city": "Juniper",
+    "county": "Lassen"
+  },
+  {
+    "city": "Jurupa Valley",
+    "county": "Riverside"
+  },
+  {
+    "city": "Kagel Canyon",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Kaweah",
+    "county": "Tulare"
+  },
+  {
+    "city": "Keddie",
+    "county": "Plumas"
+  },
+  {
+    "city": "Keeler",
+    "county": "Inyo"
+  },
+  {
+    "city": "Keene",
+    "county": "Kern"
+  },
+  {
+    "city": "Kelsey",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Kelseyville",
+    "county": "Lake"
+  },
+  {
+    "city": "Kelso",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Kensington",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Kentfield",
+    "county": "Marin"
+  },
+  {
+    "city": "Kenwood",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Kerman",
+    "county": "Fresno"
+  },
+  {
+    "city": "Kernville",
+    "county": "Kern"
+  },
+  {
+    "city": "Keswick",
+    "county": "Shasta"
+  },
+  {
+    "city": "Kettleman City",
+    "county": "Kings"
+  },
+  {
+    "city": "Keyes",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "King City",
+    "county": "Monterey"
+  },
+  {
+    "city": "Kings Beach",
+    "county": "Placer"
+  },
+  {
+    "city": "Kings Canyon National Park",
+    "county": "Tulare"
+  },
+  {
+    "city": "Kingsburg",
+    "county": "Fresno"
+  },
+  {
+    "city": "Kinyon",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Kirkwood",
+    "county": "Alpine"
+  },
+  {
+    "city": "Kit Carson",
+    "county": "Amador"
+  },
+  {
+    "city": "Klamath",
+    "county": "Del Norte"
+  },
+  {
+    "city": "Klamath River",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Kneeland",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Knights Ferry",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Knights Landing",
+    "county": "Yolo"
+  },
+  {
+    "city": "Knightsen",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Korbel",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Korbel",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Kyburz",
+    "county": "El Dorado"
+  },
+  {
+    "city": "L.A. Airport (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "La Canada- Flintridge",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "La Crescenta",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "La Cresta Village",
+    "county": "Kern"
+  },
+  {
+    "city": "La Grange",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "La Habra Heights",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "La Habra",
+    "county": "Orange"
+  },
+  {
+    "city": "La Honda",
+    "county": "San Mateo"
+  },
+  {
+    "city": "La Jolla (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "La Mesa",
+    "county": "San Diego"
+  },
+  {
+    "city": "La Mirada",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "La Palma",
+    "county": "Orange"
+  },
+  {
+    "city": "La Porte",
+    "county": "Plumas"
+  },
+  {
+    "city": "La Puente",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "La Quinta",
+    "county": "Riverside"
+  },
+  {
+    "city": "La Selva Beach",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "La Verne",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "La Vina",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Ladera",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Ladera Heights",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Ladera Ranch",
+    "county": "Orange"
+  },
+  {
+    "city": "Lafayette",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Laguna Beach",
+    "county": "Orange"
+  },
+  {
+    "city": "Laguna Hills",
+    "county": "Orange"
+  },
+  {
+    "city": "Laguna Niguel",
+    "county": "Orange"
+  },
+  {
+    "city": "Laguna Woods",
+    "county": "Orange"
+  },
+  {
+    "city": "Lagunitas",
+    "county": "Marin"
+  },
+  {
+    "city": "Lake Alpine",
+    "county": "Alpine"
+  },
+  {
+    "city": "Lake Arrowhead",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Lake City",
+    "county": "Modoc"
+  },
+  {
+    "city": "Lake City",
+    "county": "Nevada"
+  },
+  {
+    "city": "Lake Elsinore",
+    "county": "Riverside"
+  },
+  {
+    "city": "Lake Forest",
+    "county": "Orange"
+  },
+  {
+    "city": "Lake Hughes",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lake Isabella",
+    "county": "Kern"
+  },
+  {
+    "city": "Lake Los Angeles",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lake Mary",
+    "county": "Mono"
+  },
+  {
+    "city": "Lake San Marcos",
+    "county": "San Diego"
+  },
+  {
+    "city": "Lake Shastina",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Lake Sherwood",
+    "county": "Ventura"
+  },
+  {
+    "city": "Lakehead",
+    "county": "Shasta"
+  },
+  {
+    "city": "Lakeport",
+    "county": "Lake"
+  },
+  {
+    "city": "Lakeshore",
+    "county": "Fresno"
+  },
+  {
+    "city": "Lakeside",
+    "county": "San Diego"
+  },
+  {
+    "city": "Lakeview",
+    "county": "Riverside"
+  },
+  {
+    "city": "Lakeview Terrace (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lakewood",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lamont",
+    "county": "Kern"
+  },
+  {
+    "city": "Lancaster",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Landers",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Landscape",
+    "county": "Alameda"
+  },
+  {
+    "city": "Lang",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Larkfield",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Larkspur",
+    "county": "Marin"
+  },
+  {
+    "city": "Larwin Plaza",
+    "county": "Solano"
+  },
+  {
+    "city": "Lathrop",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Laton",
+    "county": "Fresno"
+  },
+  {
+    "city": "Lawndale",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Laws",
+    "county": "Inyo"
+  },
+  {
+    "city": "Laytonville",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Le Grand (Also Legrand)",
+    "county": "Merced"
+  },
+  {
+    "city": "Lebec",
+    "county": "Kern"
+  },
+  {
+    "city": "Lee Vining",
+    "county": "Mono"
+  },
+  {
+    "city": "Leggett",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Leisure World",
+    "county": "Orange"
+  },
+  {
+    "city": "Leisure World (Seal Beach)",
+    "county": "Orange"
+  },
+  {
+    "city": "Lemon Cove",
+    "county": "Tulare"
+  },
+  {
+    "city": "Lemon Grove",
+    "county": "San Diego"
+  },
+  {
+    "city": "Lemoore",
+    "county": "Kings"
+  },
+  {
+    "city": "Lennox",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lenwood",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Leona Valley",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Leucadia (Encinitas)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Lewiston",
+    "county": "Trinity"
+  },
+  {
+    "city": "Liberty Farms",
+    "county": "Solano"
+  },
+  {
+    "city": "Likely",
+    "county": "Modoc"
+  },
+  {
+    "city": "Lincoln Acres",
+    "county": "San Diego"
+  },
+  {
+    "city": "Lincoln Heights (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lincoln Village",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Lincoln",
+    "county": "Placer"
+  },
+  {
+    "city": "Linda",
+    "county": "Yuba"
+  },
+  {
+    "city": "Linden",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Lindsay",
+    "county": "Tulare"
+  },
+  {
+    "city": "Linnell",
+    "county": "Tulare"
+  },
+  {
+    "city": "Litchfield",
+    "county": "Lassen"
+  },
+  {
+    "city": "Little Lake",
+    "county": "Inyo"
+  },
+  {
+    "city": "Little Norway",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Little Valley",
+    "county": "Lassen"
+  },
+  {
+    "city": "Littleriver",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Littlerock (Also Little Rock)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Live Oak",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Live Oak",
+    "county": "Sutter"
+  },
+  {
+    "city": "Livermore",
+    "county": "Alameda"
+  },
+  {
+    "city": "Livingston",
+    "county": "Merced"
+  },
+  {
+    "city": "Llano",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Loch Lomond",
+    "county": "Lake"
+  },
+  {
+    "city": "Locke",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Lockeford",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Lockheed",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Lockwood",
+    "county": "Monterey"
+  },
+  {
+    "city": "Lodi",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Loleta",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Loma Linda",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Loma Mar",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Loma Rica",
+    "county": "Yuba"
+  },
+  {
+    "city": "Lomita",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lompoc",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "London",
+    "county": "Tulare"
+  },
+  {
+    "city": "Lone Pine",
+    "county": "Inyo"
+  },
+  {
+    "city": "Long Barn",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Long Beach",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Longview",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lookout",
+    "county": "Modoc"
+  },
+  {
+    "city": "Loomis",
+    "county": "Placer"
+  },
+  {
+    "city": "Lorre Estates",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Los Alamitos",
+    "county": "Orange"
+  },
+  {
+    "city": "Los Alamos",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Los Altos Hills",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Los Altos",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Los Angeles",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Los Banos",
+    "county": "Merced"
+  },
+  {
+    "city": "Los Gatos",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Los Molinos",
+    "county": "Tehama"
+  },
+  {
+    "city": "Los Nietos",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Los Olivos",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Los Osos",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Los Padres",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Los Serranos (Chino Hills)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Lost Hills",
+    "county": "Kern"
+  },
+  {
+    "city": "Lost Lake",
+    "county": "Riverside"
+  },
+  {
+    "city": "Lotus",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Lower Lake",
+    "county": "Lake"
+  },
+  {
+    "city": "Loyalton",
+    "county": "Sierra"
+  },
+  {
+    "city": "Lucerne",
+    "county": "Lake"
+  },
+  {
+    "city": "Lucerne Valley",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Lucia",
+    "county": "Monterey"
+  },
+  {
+    "city": "Ludlow",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Lugo",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lynwood",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Lytle Creek",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Macdoel",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Maclay",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Mad River",
+    "county": "Trinity"
+  },
+  {
+    "city": "Madeline",
+    "county": "Lassen"
+  },
+  {
+    "city": "Madera",
+    "county": "Madera"
+  },
+  {
+    "city": "Madison",
+    "county": "Yolo"
+  },
+  {
+    "city": "Magalia",
+    "county": "Butte"
+  },
+  {
+    "city": "Malaga",
+    "county": "Fresno"
+  },
+  {
+    "city": "Malibu",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Mammoth Lakes",
+    "county": "Mono"
+  },
+  {
+    "city": "Manhattan Beach",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Manteca",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Manton",
+    "county": "Tehama"
+  },
+  {
+    "city": "Manzanita Lake",
+    "county": "Shasta"
+  },
+  {
+    "city": "Mar Vista",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Marcelina",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "March A.F.B.",
+    "county": "Riverside"
+  },
+  {
+    "city": "Mare Island (Vallejo)",
+    "county": "Solano"
+  },
+  {
+    "city": "Maricopa",
+    "county": "Kern"
+  },
+  {
+    "city": "Marin City",
+    "county": "Marin"
+  },
+  {
+    "city": "Marina Del Rey",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Marina",
+    "county": "Monterey"
+  },
+  {
+    "city": "Marine Corps (Twentynine Palms)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Mariner",
+    "county": "Orange"
+  },
+  {
+    "city": "Mariposa",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Markleeville",
+    "county": "Alpine"
+  },
+  {
+    "city": "Marsh Manor",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Marshall",
+    "county": "Marin"
+  },
+  {
+    "city": "Martell",
+    "county": "Amador"
+  },
+  {
+    "city": "Martinez",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Marysville",
+    "county": "Yuba"
+  },
+  {
+    "city": "Mather",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Mather",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Maxwell",
+    "county": "Colusa"
+  },
+  {
+    "city": "Maywood",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "McArthur",
+    "county": "Shasta"
+  },
+  {
+    "city": "McClellan",
+    "county": "Sacramento"
+  },
+  {
+    "city": "McCloud",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "McFarland",
+    "county": "Kern"
+  },
+  {
+    "city": "McKinleyville",
+    "county": "Humboldt"
+  },
+  {
+    "city": "McKittrick",
+    "county": "Kern"
+  },
+  {
+    "city": "Mead Valley",
+    "county": "Riverside"
+  },
+  {
+    "city": "Meadow Valley",
+    "county": "Plumas"
+  },
+  {
+    "city": "Meadow Vista",
+    "county": "Placer"
+  },
+  {
+    "city": "Meadowbrook",
+    "county": "Riverside"
+  },
+  {
+    "city": "Mecca",
+    "county": "Riverside"
+  },
+  {
+    "city": "Meeks Bay",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Meiners Oaks",
+    "county": "Ventura"
+  },
+  {
+    "city": "Mendocino",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Mendota",
+    "county": "Fresno"
+  },
+  {
+    "city": "Menifee",
+    "county": "Riverside"
+  },
+  {
+    "city": "Menlo Park",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Mentone",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Merced",
+    "county": "Merced"
+  },
+  {
+    "city": "Meridian",
+    "county": "Sutter"
+  },
+  {
+    "city": "Mettler",
+    "county": "Kern"
+  },
+  {
+    "city": "Meyers",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Mi-Wuk Village",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Middletown",
+    "county": "Lake"
+  },
+  {
+    "city": "Midland",
+    "county": "Riverside"
+  },
+  {
+    "city": "Midpines",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Midway City",
+    "county": "Orange"
+  },
+  {
+    "city": "Milford",
+    "county": "Lassen"
+  },
+  {
+    "city": "Mill Creek",
+    "county": "Tehama"
+  },
+  {
+    "city": "Mill Valley",
+    "county": "Marin"
+  },
+  {
+    "city": "Millbrae",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Millville",
+    "county": "Shasta"
+  },
+  {
+    "city": "Milpitas",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Mineral",
+    "county": "Tehama"
+  },
+  {
+    "city": "Mineral King",
+    "county": "Tulare"
+  },
+  {
+    "city": "Mint Canyon",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Mira Loma",
+    "county": "Riverside"
+  },
+  {
+    "city": "Mira Vista",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Miracle Hot Springs",
+    "county": "Kern"
+  },
+  {
+    "city": "Miramar (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Miramonte",
+    "county": "Fresno"
+  },
+  {
+    "city": "Miranda",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Mission Hills (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Mission Viejo",
+    "county": "Orange"
+  },
+  {
+    "city": "Moccasin",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Modesto",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Moffett Field",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Mojave",
+    "county": "Kern"
+  },
+  {
+    "city": "Mokelumne Hill",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Monarch Beach (Dana Point)",
+    "county": "Orange"
+  },
+  {
+    "city": "Moneta",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Mono Hot Springs",
+    "county": "Fresno"
+  },
+  {
+    "city": "Mono Lake",
+    "county": "Mono"
+  },
+  {
+    "city": "Monolith",
+    "county": "Kern"
+  },
+  {
+    "city": "Monrovia",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Monta Vista",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Montague",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Montalvo (Ventura)",
+    "county": "Ventura"
+  },
+  {
+    "city": "Montara",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Montclair",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Monte Rio",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Monte Sereno",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Montebello",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Montecito",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Monterey Bay Academy",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Monterey Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Monterey",
+    "county": "Monterey"
+  },
+  {
+    "city": "Montgomery Creek",
+    "county": "Shasta"
+  },
+  {
+    "city": "Montrose",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Mooney",
+    "county": "Tulare"
+  },
+  {
+    "city": "Moonridge",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Moorpark",
+    "county": "Ventura"
+  },
+  {
+    "city": "Moraga",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Moreno Valley",
+    "county": "Riverside"
+  },
+  {
+    "city": "Morgan Hill",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Morongo Valley",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Morro Bay",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Morro Plaza",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Moss Beach",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Moss Landing",
+    "county": "Monterey"
+  },
+  {
+    "city": "Mount Hamilton",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Mount Hebron",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Mount Hermon",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Mount Laguna",
+    "county": "San Diego"
+  },
+  {
+    "city": "Mount Shasta",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Mount Wilson",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Mountain Center",
+    "county": "Riverside"
+  },
+  {
+    "city": "Mountain Mesa",
+    "county": "Kern"
+  },
+  {
+    "city": "Mountain Pass",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Mountain Ranch",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Mountain View",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Mt. Aukum",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Mt. Baldy",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Murphys",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Murrieta",
+    "county": "Riverside"
+  },
+  {
+    "city": "Muscoy",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Myers Flat",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Napa",
+    "county": "Napa"
+  },
+  {
+    "city": "Naples",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Nashville",
+    "county": "El Dorado"
+  },
+  {
+    "city": "National City",
+    "county": "San Diego"
+  },
+  {
+    "city": "Naval (Port Hueneme)",
+    "county": "Ventura"
+  },
+  {
+    "city": "Naval (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Naval Air Station (Alameda)",
+    "county": "Alameda"
+  },
+  {
+    "city": "Naval Air Station (Coronado)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Naval Air Station (Lemoore)",
+    "county": "Kings"
+  },
+  {
+    "city": "Naval Hospital (Oakland)",
+    "county": "Alameda"
+  },
+  {
+    "city": "Naval Hospital (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Naval Supply Center (Oakland)",
+    "county": "Alameda"
+  },
+  {
+    "city": "Naval Training Center (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Navarro",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Needles",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Nelson",
+    "county": "Butte"
+  },
+  {
+    "city": "Nevada City",
+    "county": "Nevada"
+  },
+  {
+    "city": "New Almaden",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "New Cuyama",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "New Idria",
+    "county": "San Benito"
+  },
+  {
+    "city": "Newark",
+    "county": "Alameda"
+  },
+  {
+    "city": "Newberry",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Newberry Springs",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Newbury Park (Thousand Oaks)",
+    "county": "Ventura"
+  },
+  {
+    "city": "Newcastle",
+    "county": "Placer"
+  },
+  {
+    "city": "Newhall (Santa Clarita)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Newman",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Newport Beach",
+    "county": "Orange"
+  },
+  {
+    "city": "Nicasio",
+    "county": "Marin"
+  },
+  {
+    "city": "Nice",
+    "county": "Lake"
+  },
+  {
+    "city": "Nicolaus",
+    "county": "Sutter"
+  },
+  {
+    "city": "Niland",
+    "county": "Imperial"
+  },
+  {
+    "city": "Nipomo",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Nipton",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Norco",
+    "county": "Riverside"
+  },
+  {
+    "city": "Norden",
+    "county": "Nevada"
+  },
+  {
+    "city": "North Edwards",
+    "county": "Kern"
+  },
+  {
+    "city": "North Fork",
+    "county": "Madera"
+  },
+  {
+    "city": "North Gardena",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "North Highlands",
+    "county": "Sacramento"
+  },
+  {
+    "city": "North Hills (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "North Hollywood (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "North Palm Springs",
+    "county": "Riverside"
+  },
+  {
+    "city": "North San Juan",
+    "county": "Nevada"
+  },
+  {
+    "city": "North Shore",
+    "county": "Riverside"
+  },
+  {
+    "city": "Northridge (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Norton A.F.B. (San Bernardino)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Norwalk",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Novato",
+    "county": "Marin"
+  },
+  {
+    "city": "Nubieber",
+    "county": "Lassen"
+  },
+  {
+    "city": "Nuevo",
+    "county": "Riverside"
+  },
+  {
+    "city": "Nyeland Acres",
+    "county": "Ventura"
+  },
+  {
+    "city": "O'Brien",
+    "county": "Shasta"
+  },
+  {
+    "city": "O'Neals",
+    "county": "Madera"
+  },
+  {
+    "city": "Oak Park",
+    "county": "Ventura"
+  },
+  {
+    "city": "Oak Run",
+    "county": "Shasta"
+  },
+  {
+    "city": "Oak View",
+    "county": "Ventura"
+  },
+  {
+    "city": "Oakdale",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Oakhurst",
+    "county": "Madera"
+  },
+  {
+    "city": "Oakland",
+    "county": "Alameda"
+  },
+  {
+    "city": "Oakley",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Oakville",
+    "county": "Napa"
+  },
+  {
+    "city": "Oasis",
+    "county": "Riverside"
+  },
+  {
+    "city": "Oban",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Occidental",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Oceano",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Oceanside",
+    "county": "San Diego"
+  },
+  {
+    "city": "Ocotillo",
+    "county": "Imperial"
+  },
+  {
+    "city": "Ocotillo Wells",
+    "county": "San Diego"
+  },
+  {
+    "city": "Oildale",
+    "county": "Kern"
+  },
+  {
+    "city": "Ojai",
+    "county": "Ventura"
+  },
+  {
+    "city": "Olancha",
+    "county": "Inyo"
+  },
+  {
+    "city": "Old Station",
+    "county": "Shasta"
+  },
+  {
+    "city": "Olema",
+    "county": "Marin"
+  },
+  {
+    "city": "Olinda",
+    "county": "Shasta"
+  },
+  {
+    "city": "Olive View (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Olivehurst",
+    "county": "Yuba"
+  },
+  {
+    "city": "Olivenhain (Encinitas)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Olympic Valley",
+    "county": "Placer"
+  },
+  {
+    "city": "Omo Ranch",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Ono",
+    "county": "Shasta"
+  },
+  {
+    "city": "Ontario",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Onyx",
+    "county": "Kern"
+  },
+  {
+    "city": "Opal Cliffs",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Orange Cove",
+    "county": "Fresno"
+  },
+  {
+    "city": "Orange",
+    "county": "Orange"
+  },
+  {
+    "city": "Orangevale",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Orcutt",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Ordbend",
+    "county": "Glenn"
+  },
+  {
+    "city": "Oregon House",
+    "county": "Yuba"
+  },
+  {
+    "city": "Orick",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Orinda",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Orland",
+    "county": "Glenn"
+  },
+  {
+    "city": "Orleans",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Oro Grande",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Orosi",
+    "county": "Tulare"
+  },
+  {
+    "city": "Oroville",
+    "county": "Butte"
+  },
+  {
+    "city": "Otay (Chula Vista)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Oxnard",
+    "county": "Ventura"
+  },
+  {
+    "city": "Pacheco",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Pacific Grove",
+    "county": "Monterey"
+  },
+  {
+    "city": "Pacific House",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Pacific Palisades (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Pacifica",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Pacoima (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Paicines",
+    "county": "San Benito"
+  },
+  {
+    "city": "Pajaro",
+    "county": "Monterey"
+  },
+  {
+    "city": "Pala",
+    "county": "San Diego"
+  },
+  {
+    "city": "Palermo",
+    "county": "Butte"
+  },
+  {
+    "city": "Pallett",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Palm City",
+    "county": "Riverside"
+  },
+  {
+    "city": "Palm City (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Palm Desert",
+    "county": "Riverside"
+  },
+  {
+    "city": "Palm Springs",
+    "county": "Riverside"
+  },
+  {
+    "city": "Palmdale",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Palo Alto",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Palo Cedro",
+    "county": "Shasta"
+  },
+  {
+    "city": "Palo Verde",
+    "county": "Imperial"
+  },
+  {
+    "city": "Palomar Mountain",
+    "county": "San Diego"
+  },
+  {
+    "city": "Palos Verdes Estates",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Palos Verdes/Peninsula",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Panorama City (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Paradise",
+    "county": "Butte"
+  },
+  {
+    "city": "Paramount",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Parker Dam",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Parkfield",
+    "county": "Monterey"
+  },
+  {
+    "city": "Parlier",
+    "county": "Fresno"
+  },
+  {
+    "city": "Pasadena",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Paskenta",
+    "county": "Tehama"
+  },
+  {
+    "city": "Paso Robles",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Patterson",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Patton",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Pauma Valley",
+    "county": "San Diego"
+  },
+  {
+    "city": "Paynes Creek",
+    "county": "Tehama"
+  },
+  {
+    "city": "Pearblossom",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Pearland",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Pebble Beach",
+    "county": "Monterey"
+  },
+  {
+    "city": "Pedley",
+    "county": "Riverside"
+  },
+  {
+    "city": "Peninsula Village",
+    "county": "Plumas"
+  },
+  {
+    "city": "Penn Valley",
+    "county": "Nevada"
+  },
+  {
+    "city": "Penngrove",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Penryn",
+    "county": "Placer"
+  },
+  {
+    "city": "Pepperwood",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Permanente",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Perris",
+    "county": "Riverside"
+  },
+  {
+    "city": "Perry (Whittier)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Pescadero",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Petaluma",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Petrolia",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Phelan",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Phillipsville",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Philo",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Pico Rivera",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Piedmont",
+    "county": "Alameda"
+  },
+  {
+    "city": "Piedra",
+    "county": "Fresno"
+  },
+  {
+    "city": "Piercy",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Pilot Hill",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Pine Grove",
+    "county": "Amador"
+  },
+  {
+    "city": "Pine Valley",
+    "county": "San Diego"
+  },
+  {
+    "city": "Pinecrest",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Pinedale (Fresno)",
+    "county": "Fresno"
+  },
+  {
+    "city": "Pinetree",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Pinole",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Pinon Hills",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Pioneer",
+    "county": "Amador"
+  },
+  {
+    "city": "Pioneertown",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Piru",
+    "county": "Ventura"
+  },
+  {
+    "city": "Pismo Beach",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Pittsburg",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Pixley",
+    "county": "Tulare"
+  },
+  {
+    "city": "Placentia",
+    "county": "Orange"
+  },
+  {
+    "city": "Placerville",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Plainview",
+    "county": "Tulare"
+  },
+  {
+    "city": "Planada",
+    "county": "Merced"
+  },
+  {
+    "city": "Plaster City",
+    "county": "Imperial"
+  },
+  {
+    "city": "Platina",
+    "county": "Shasta"
+  },
+  {
+    "city": "Playa Del Rey (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Pleasant Grove",
+    "county": "Sutter"
+  },
+  {
+    "city": "Pleasant Hill",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Pleasanton",
+    "county": "Alameda"
+  },
+  {
+    "city": "Plymouth",
+    "county": "Amador"
+  },
+  {
+    "city": "Point Arena",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Point Mugu",
+    "county": "Ventura"
+  },
+  {
+    "city": "Point Reyes Station",
+    "county": "Marin"
+  },
+  {
+    "city": "Pollock Pines",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Pomona",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Pond",
+    "county": "Kern"
+  },
+  {
+    "city": "Pondosa",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Pope Valley",
+    "county": "Napa"
+  },
+  {
+    "city": "Poplar",
+    "county": "Tulare"
+  },
+  {
+    "city": "Port Costa",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Port Hueneme",
+    "county": "Ventura"
+  },
+  {
+    "city": "Porter Ranch (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Porterville",
+    "county": "Tulare"
+  },
+  {
+    "city": "Portola Valley",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Portola",
+    "county": "Plumas"
+  },
+  {
+    "city": "Portuguese Bend (Rancho Palos Verdes)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Posey",
+    "county": "Tulare"
+  },
+  {
+    "city": "Potrero",
+    "county": "San Diego"
+  },
+  {
+    "city": "Potter Valley",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Poway",
+    "county": "San Diego"
+  },
+  {
+    "city": "Prather",
+    "county": "Fresno"
+  },
+  {
+    "city": "Presidio (San Francisco)",
+    "county": "San Francisco"
+  },
+  {
+    "city": "Presidio of Monterey (Monterey)",
+    "county": "Monterey"
+  },
+  {
+    "city": "Priest Valley",
+    "county": "Monterey"
+  },
+  {
+    "city": "Princeton",
+    "county": "Colusa"
+  },
+  {
+    "city": "Proberta",
+    "county": "Tehama"
+  },
+  {
+    "city": "Project City",
+    "county": "Shasta"
+  },
+  {
+    "city": "Prunedale",
+    "county": "Monterey"
+  },
+  {
+    "city": "Pt. Dume",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Pulga",
+    "county": "Butte"
+  },
+  {
+    "city": "Pumpkin Center",
+    "county": "Kern"
+  },
+  {
+    "city": "Quail Valley (Menifee)",
+    "county": "Riverside"
+  },
+  {
+    "city": "Quartz Hill",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Quincy",
+    "county": "Plumas"
+  },
+  {
+    "city": "Rackerby",
+    "county": "Yuba"
+  },
+  {
+    "city": "Rail Road Flat",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Rainbow",
+    "county": "San Diego"
+  },
+  {
+    "city": "Raisin City",
+    "county": "Fresno"
+  },
+  {
+    "city": "Ramona",
+    "county": "San Diego"
+  },
+  {
+    "city": "Ranchita",
+    "county": "San Diego"
+  },
+  {
+    "city": "Rancho Bernardo (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Rancho California",
+    "county": "Riverside"
+  },
+  {
+    "city": "Rancho Cordova",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Rancho Cucamonga",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Rancho Dominguez",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Rancho Mirage",
+    "county": "Riverside"
+  },
+  {
+    "city": "Rancho Murieta",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Rancho Palos Verdes",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Rancho Park (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Rancho Santa Fe",
+    "county": "San Diego"
+  },
+  {
+    "city": "Rancho Santa Margarita",
+    "county": "Orange"
+  },
+  {
+    "city": "Randsburg",
+    "county": "Kern"
+  },
+  {
+    "city": "Ravendale",
+    "county": "Lassen"
+  },
+  {
+    "city": "Ravenna",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Raymond",
+    "county": "Madera"
+  },
+  {
+    "city": "Red Bluff",
+    "county": "Tehama"
+  },
+  {
+    "city": "Red Mountain",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Red Top",
+    "county": "Madera"
+  },
+  {
+    "city": "Redcrest",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Redding",
+    "county": "Shasta"
+  },
+  {
+    "city": "Redlands",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Redondo Beach",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Redway",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Redwood City",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Redwood Estates",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Redwood Valley",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Reedley",
+    "county": "Fresno"
+  },
+  {
+    "city": "Refugio Beach",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Represa (Folsom Prison)",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Requa",
+    "county": "Del Norte"
+  },
+  {
+    "city": "Rescue",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Reseda (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Rheem Valley (Moraga)",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Rialto",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Richardson Grove",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Richardson Springs",
+    "county": "Butte"
+  },
+  {
+    "city": "Richfield",
+    "county": "Tehama"
+  },
+  {
+    "city": "Richgrove",
+    "county": "Tulare"
+  },
+  {
+    "city": "Richmond",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Richvale",
+    "county": "Butte"
+  },
+  {
+    "city": "Ridgecrest",
+    "county": "Kern"
+  },
+  {
+    "city": "Rimforest",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Rimpau (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Rio Bravo (Bakersfield)",
+    "county": "Kern"
+  },
+  {
+    "city": "Rio Del Mar",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Rio Dell",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Rio Linda",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Rio Nido",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Rio Oso",
+    "county": "Sutter"
+  },
+  {
+    "city": "Rio Vista",
+    "county": "Solano"
+  },
+  {
+    "city": "Ripley",
+    "county": "Riverside"
+  },
+  {
+    "city": "Ripon",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "River Pines",
+    "county": "Amador"
+  },
+  {
+    "city": "Riverbank",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Riverdale",
+    "county": "Fresno"
+  },
+  {
+    "city": "Riverside",
+    "county": "Riverside"
+  },
+  {
+    "city": "Robbins",
+    "county": "Sutter"
+  },
+  {
+    "city": "Rocklin",
+    "county": "Placer"
+  },
+  {
+    "city": "Rodeo",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Rohnert Park",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Rohnerville",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Rolling Hills Estates",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Rolling Hills",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Romoland (Menifee)",
+    "county": "Riverside"
+  },
+  {
+    "city": "Rosamond",
+    "county": "Kern"
+  },
+  {
+    "city": "Rose Bowl (Pasadena)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Roseland",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Rosemead",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Roseville",
+    "county": "Placer"
+  },
+  {
+    "city": "Ross",
+    "county": "Marin"
+  },
+  {
+    "city": "Rossmoor",
+    "county": "Orange"
+  },
+  {
+    "city": "Rough and Ready",
+    "county": "Nevada"
+  },
+  {
+    "city": "Round Mountain",
+    "county": "Shasta"
+  },
+  {
+    "city": "Rowland Heights",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Royal Oaks",
+    "county": "Monterey"
+  },
+  {
+    "city": "Rubidoux",
+    "county": "Riverside"
+  },
+  {
+    "city": "Ruby Valley",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Rumsey",
+    "county": "Yolo"
+  },
+  {
+    "city": "Running Springs",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Ruth",
+    "county": "Trinity"
+  },
+  {
+    "city": "Rutherford",
+    "county": "Napa"
+  },
+  {
+    "city": "Ryde",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Sacramento",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Saint Helena",
+    "county": "Napa"
+  },
+  {
+    "city": "Salida",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Salinas",
+    "county": "Monterey"
+  },
+  {
+    "city": "Salton City",
+    "county": "Imperial"
+  },
+  {
+    "city": "Salyer",
+    "county": "Trinity"
+  },
+  {
+    "city": "Samoa",
+    "county": "Humboldt"
+  },
+  {
+    "city": "San Andreas",
+    "county": "Calaveras"
+  },
+  {
+    "city": "San Anselmo",
+    "county": "Marin"
+  },
+  {
+    "city": "San Ardo",
+    "county": "Monterey"
+  },
+  {
+    "city": "San Benito",
+    "county": "San Benito"
+  },
+  {
+    "city": "San Bernardino",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "San Bruno",
+    "county": "San Mateo"
+  },
+  {
+    "city": "San Carlos (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "San Carlos",
+    "county": "San Mateo"
+  },
+  {
+    "city": "San Clemente",
+    "county": "Orange"
+  },
+  {
+    "city": "San Diego",
+    "county": "San Diego"
+  },
+  {
+    "city": "San Dimas",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "San Fernando",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "San Francisco",
+    "county": "San Francisco"
+  },
+  {
+    "city": "San Gabriel",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "San Geronimo",
+    "county": "Marin"
+  },
+  {
+    "city": "San Gregorio",
+    "county": "San Mateo"
+  },
+  {
+    "city": "San Jacinto",
+    "county": "Riverside"
+  },
+  {
+    "city": "San Joaquin",
+    "county": "Fresno"
+  },
+  {
+    "city": "San Jose",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "San Juan Bautista",
+    "county": "San Benito"
+  },
+  {
+    "city": "San Juan Capistrano",
+    "county": "Orange"
+  },
+  {
+    "city": "San Juan Plaza (San Juan Capistrano)",
+    "county": "Orange"
+  },
+  {
+    "city": "San Leandro",
+    "county": "Alameda"
+  },
+  {
+    "city": "San Lorenzo",
+    "county": "Alameda"
+  },
+  {
+    "city": "San Lucas",
+    "county": "Monterey"
+  },
+  {
+    "city": "San Luis Obispo",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "San Luis Rey (Oceanside)",
+    "county": "San Diego"
+  },
+  {
+    "city": "San Marcos",
+    "county": "San Diego"
+  },
+  {
+    "city": "San Marino",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "San Martin",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "San Mateo",
+    "county": "San Mateo"
+  },
+  {
+    "city": "San Miguel",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "San Pablo",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "San Pedro (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "San Quentin",
+    "county": "Marin"
+  },
+  {
+    "city": "San Rafael",
+    "county": "Marin"
+  },
+  {
+    "city": "San Ramon",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "San Simeon",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "San Tomas",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "San Ysidro (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Sand City",
+    "county": "Monterey"
+  },
+  {
+    "city": "Sanger",
+    "county": "Fresno"
+  },
+  {
+    "city": "Santa Ana",
+    "county": "Orange"
+  },
+  {
+    "city": "Santa Barbara (U.C. Santa Barbara campus rate is 7.75%)",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Santa Clara",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Santa Clarita",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Santa Cruz",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Santa Fe Springs",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Santa Margarita",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Santa Maria",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Santa Monica",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Santa Nella",
+    "county": "Merced"
+  },
+  {
+    "city": "Santa Paula",
+    "county": "Ventura"
+  },
+  {
+    "city": "Santa Rita Park",
+    "county": "Merced"
+  },
+  {
+    "city": "Santa Rosa Valley",
+    "county": "Ventura"
+  },
+  {
+    "city": "Santa Rosa",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Santa Ynez",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Santa Ysabel",
+    "county": "San Diego"
+  },
+  {
+    "city": "Santee",
+    "county": "San Diego"
+  },
+  {
+    "city": "Saratoga",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Saticoy",
+    "county": "Ventura"
+  },
+  {
+    "city": "Sattley",
+    "county": "Sierra"
+  },
+  {
+    "city": "Saugus (Santa Clarita)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sausalito",
+    "county": "Marin"
+  },
+  {
+    "city": "Sawtelle (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sawyers Bar",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Scotia",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Scott Bar",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Scotts Valley",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Sea Ranch",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Seabright (Santa Cruz)",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Seal Beach",
+    "county": "Orange"
+  },
+  {
+    "city": "Seaside",
+    "county": "Monterey"
+  },
+  {
+    "city": "Sebastopol",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Seeley",
+    "county": "Imperial"
+  },
+  {
+    "city": "Seiad Valley",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Selby",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Selma",
+    "county": "Fresno"
+  },
+  {
+    "city": "Seminole Hot Springs",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sepulveda (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sequoia National Park",
+    "county": "Tulare"
+  },
+  {
+    "city": "Shadow Hills (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Shafter",
+    "county": "Kern"
+  },
+  {
+    "city": "Shandon",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Sharpe Army Depot",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Shasta",
+    "county": "Shasta"
+  },
+  {
+    "city": "Shasta Lake",
+    "county": "Shasta"
+  },
+  {
+    "city": "Shaver Lake",
+    "county": "Fresno"
+  },
+  {
+    "city": "Sheepranch",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Shell Beach (Pismo Beach)",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Sheridan",
+    "county": "Placer"
+  },
+  {
+    "city": "Sherman Island",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Sherman Oaks (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sherwin Plaza",
+    "county": "Mono"
+  },
+  {
+    "city": "Shingle Springs",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Shingletown",
+    "county": "Shasta"
+  },
+  {
+    "city": "Shively",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Shore Acres",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Shoshone",
+    "county": "Inyo"
+  },
+  {
+    "city": "Sierra City",
+    "county": "Sierra"
+  },
+  {
+    "city": "Sierra Madre",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sierraville",
+    "county": "Sierra"
+  },
+  {
+    "city": "Signal Hill",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Silver Lake",
+    "county": "Amador"
+  },
+  {
+    "city": "Silverado Canyon",
+    "county": "Orange"
+  },
+  {
+    "city": "Simi Valley",
+    "county": "Ventura"
+  },
+  {
+    "city": "Sisquoc",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Sites",
+    "county": "Colusa"
+  },
+  {
+    "city": "Sky Valley",
+    "county": "Riverside"
+  },
+  {
+    "city": "Skyforest",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Sleepy Valley",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sloat",
+    "county": "Plumas"
+  },
+  {
+    "city": "Sloughhouse",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Smartsville",
+    "county": "Yuba"
+  },
+  {
+    "city": "Smith River",
+    "county": "Del Norte"
+  },
+  {
+    "city": "Smithflat",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Smoke Tree (Palm Springs)",
+    "county": "Riverside"
+  },
+  {
+    "city": "Smoke Tree (Twentynine Palms)",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Snelling",
+    "county": "Merced"
+  },
+  {
+    "city": "Soda Springs",
+    "county": "Nevada"
+  },
+  {
+    "city": "Solana Beach",
+    "county": "San Diego"
+  },
+  {
+    "city": "Soledad",
+    "county": "Monterey"
+  },
+  {
+    "city": "Solemint",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Solvang",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Somerset",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Somes Bar",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Somis",
+    "county": "Ventura"
+  },
+  {
+    "city": "Sonoma",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Sonora",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Soquel",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Soulsbyville",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "South Dos Palos",
+    "county": "Merced"
+  },
+  {
+    "city": "South El Monte",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "South Fork",
+    "county": "Humboldt"
+  },
+  {
+    "city": "South Gate",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "South Laguna (Laguna Beach)",
+    "county": "Orange"
+  },
+  {
+    "city": "South Lake Tahoe",
+    "county": "El Dorado"
+  },
+  {
+    "city": "South Pasadena",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "South San Francisco",
+    "county": "San Mateo"
+  },
+  {
+    "city": "South Shore (Alameda)",
+    "county": "Alameda"
+  },
+  {
+    "city": "South Whittier",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Spanish Flat",
+    "county": "Napa"
+  },
+  {
+    "city": "Spreckels",
+    "county": "Monterey"
+  },
+  {
+    "city": "Spring Garden",
+    "county": "Plumas"
+  },
+  {
+    "city": "Spring Valley",
+    "county": "San Diego"
+  },
+  {
+    "city": "Springville",
+    "county": "Tulare"
+  },
+  {
+    "city": "Spyrock",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Squaw Valley",
+    "county": "Fresno"
+  },
+  {
+    "city": "St. Helena",
+    "county": "Napa"
+  },
+  {
+    "city": "Standard",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Standish",
+    "county": "Lassen"
+  },
+  {
+    "city": "Stanford",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Stanislaus",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Stanton",
+    "county": "Orange"
+  },
+  {
+    "city": "Steele Park",
+    "county": "Napa"
+  },
+  {
+    "city": "Stevenson Ranch",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Stevinson",
+    "county": "Merced"
+  },
+  {
+    "city": "Stewarts Point",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Stinson Beach",
+    "county": "Marin"
+  },
+  {
+    "city": "Stirling City",
+    "county": "Butte"
+  },
+  {
+    "city": "Stockton",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Stonyford",
+    "county": "Colusa"
+  },
+  {
+    "city": "Storrie",
+    "county": "Plumas"
+  },
+  {
+    "city": "Stratford",
+    "county": "Kings"
+  },
+  {
+    "city": "Strathmore",
+    "county": "Tulare"
+  },
+  {
+    "city": "Strawberry",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Strawberry Valley",
+    "county": "Yuba"
+  },
+  {
+    "city": "Studio City (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sugarloaf",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Suisun City",
+    "county": "Solano"
+  },
+  {
+    "city": "Sulphur Springs",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sultana",
+    "county": "Tulare"
+  },
+  {
+    "city": "Summerland",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Summit",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Summit City",
+    "county": "Shasta"
+  },
+  {
+    "city": "Sun City (Menifee)",
+    "county": "Riverside"
+  },
+  {
+    "city": "Sun Valley (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sunland (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Sunnymead (Moreno Valley)",
+    "county": "Riverside"
+  },
+  {
+    "city": "Sunnyside",
+    "county": "San Diego"
+  },
+  {
+    "city": "Sunnyvale",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Sunol",
+    "county": "Alameda"
+  },
+  {
+    "city": "Sunset Beach",
+    "county": "Orange"
+  },
+  {
+    "city": "Sunset Whitney Ranch",
+    "county": "Placer"
+  },
+  {
+    "city": "Surfside (Seal Beach)",
+    "county": "Orange"
+  },
+  {
+    "city": "Susanville",
+    "county": "Lassen"
+  },
+  {
+    "city": "Sutter",
+    "county": "Sutter"
+  },
+  {
+    "city": "Sutter Creek",
+    "county": "Amador"
+  },
+  {
+    "city": "Swall Meadows (Bishop)",
+    "county": "Inyo"
+  },
+  {
+    "city": "Sylmar (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Taft",
+    "county": "Kern"
+  },
+  {
+    "city": "Tagus Ranch",
+    "county": "Tulare"
+  },
+  {
+    "city": "Tahoe City",
+    "county": "Placer"
+  },
+  {
+    "city": "Tahoe Paradise",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Tahoe Valley",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Tahoe Vista",
+    "county": "Placer"
+  },
+  {
+    "city": "Tahoma",
+    "county": "Placer"
+  },
+  {
+    "city": "Talmage",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Tamal (San Quentin)",
+    "county": "Marin"
+  },
+  {
+    "city": "Tarzana (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Taylorsville",
+    "county": "Plumas"
+  },
+  {
+    "city": "Tecate",
+    "county": "San Diego"
+  },
+  {
+    "city": "Tecopa",
+    "county": "Inyo"
+  },
+  {
+    "city": "Tehachapi",
+    "county": "Kern"
+  },
+  {
+    "city": "Tehama",
+    "county": "Tehama"
+  },
+  {
+    "city": "Temecula",
+    "county": "Riverside"
+  },
+  {
+    "city": "Temple City",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Templeton",
+    "county": "San Luis Obispo"
+  },
+  {
+    "city": "Terminal Island (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Termo",
+    "county": "Lassen"
+  },
+  {
+    "city": "Terra Bella",
+    "county": "Tulare"
+  },
+  {
+    "city": "Thermal",
+    "county": "Riverside"
+  },
+  {
+    "city": "Thornton",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Thousand Oaks",
+    "county": "Ventura"
+  },
+  {
+    "city": "Thousand Palms",
+    "county": "Riverside"
+  },
+  {
+    "city": "Three Rivers",
+    "county": "Tulare"
+  },
+  {
+    "city": "Tiburon",
+    "county": "Marin"
+  },
+  {
+    "city": "Tierra Del Sol",
+    "county": "San Diego"
+  },
+  {
+    "city": "Tierrasanta (San Diego)",
+    "county": "San Diego"
+  },
+  {
+    "city": "Tipton",
+    "county": "Tulare"
+  },
+  {
+    "city": "Tollhouse",
+    "county": "Fresno"
+  },
+  {
+    "city": "Toluca Lake (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Tomales",
+    "county": "Marin"
+  },
+  {
+    "city": "Toms Place",
+    "county": "Mono"
+  },
+  {
+    "city": "Topanga",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Topanga Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Topaz",
+    "county": "Mono"
+  },
+  {
+    "city": "Torrance",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Town Center",
+    "county": "Tulare"
+  },
+  {
+    "city": "Trabuco Canyon",
+    "county": "Orange"
+  },
+  {
+    "city": "Tracy",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Tranquillity",
+    "county": "Fresno"
+  },
+  {
+    "city": "Traver",
+    "county": "Tulare"
+  },
+  {
+    "city": "Travis A.F.B. (Fairfield)",
+    "county": "Solano"
+  },
+  {
+    "city": "Tres Pinos",
+    "county": "San Benito"
+  },
+  {
+    "city": "Trinidad",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Trinity Center",
+    "county": "Trinity"
+  },
+  {
+    "city": "Trona",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Trowbridge",
+    "county": "Sutter"
+  },
+  {
+    "city": "Truckee",
+    "county": "Nevada"
+  },
+  {
+    "city": "Tujunga (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Tulare",
+    "county": "Tulare"
+  },
+  {
+    "city": "Tulelake",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Tuolumne",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Tuolumne Meadows",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Tupman",
+    "county": "Kern"
+  },
+  {
+    "city": "Turlock",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Tustin",
+    "county": "Orange"
+  },
+  {
+    "city": "Twain",
+    "county": "Plumas"
+  },
+  {
+    "city": "Twain Harte",
+    "county": "Tuolumne"
+  },
+  {
+    "city": "Twentynine Palms",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Twin Bridges",
+    "county": "El Dorado"
+  },
+  {
+    "city": "Twin Peaks",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Two Rock Coast Guard Station",
+    "county": "Sonoma"
+  },
+  {
+    "city": "U.S. Naval Postgrad School (Monterey)",
+    "county": "Monterey"
+  },
+  {
+    "city": "Ukiah",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Union City",
+    "county": "Alameda"
+  },
+  {
+    "city": "Universal City",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "University",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "University Park (Irvine)",
+    "county": "Orange"
+  },
+  {
+    "city": "Upland",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Upper Lake/ Upper Lake Valley",
+    "county": "Lake"
+  },
+  {
+    "city": "Vacaville",
+    "county": "Solano"
+  },
+  {
+    "city": "Val Verde Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Valencia (Santa Clarita)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Valinda",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Vallecito",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Vallejo",
+    "county": "Solano"
+  },
+  {
+    "city": "Valley Center",
+    "county": "San Diego"
+  },
+  {
+    "city": "Valley Fair",
+    "county": "Santa Clara"
+  },
+  {
+    "city": "Valley Ford",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Valley Home",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Valley Springs",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Valley Village",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Valyermo",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Van Nuys (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Vandenberg A.F.B",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Vasquez Rocks",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Venice (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Ventucopa",
+    "county": "Santa Barbara"
+  },
+  {
+    "city": "Ventura",
+    "county": "Ventura"
+  },
+  {
+    "city": "Verdugo City (Glendale)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Vernalis",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Vernon",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Veteran's Hospital (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Victor",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Victorville",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Vidal",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "View Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Villa Grande",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Villa Park",
+    "county": "Orange"
+  },
+  {
+    "city": "Vina",
+    "county": "Tehama"
+  },
+  {
+    "city": "Vincent",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Vineburg",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Vinton",
+    "county": "Plumas"
+  },
+  {
+    "city": "Virgilia",
+    "county": "Plumas"
+  },
+  {
+    "city": "Visalia",
+    "county": "Tulare"
+  },
+  {
+    "city": "Vista Park",
+    "county": "Kern"
+  },
+  {
+    "city": "Vista",
+    "county": "San Diego"
+  },
+  {
+    "city": "Volcano",
+    "county": "Amador"
+  },
+  {
+    "city": "Volta",
+    "county": "Merced"
+  },
+  {
+    "city": "Wallace",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Walnut Creek",
+    "county": "Contra Costa"
+  },
+  {
+    "city": "Walnut Grove",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Walnut Park",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Walnut",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Warm Springs (Fremont)",
+    "county": "Alameda"
+  },
+  {
+    "city": "Warner Springs",
+    "county": "San Diego"
+  },
+  {
+    "city": "Wasco",
+    "county": "Kern"
+  },
+  {
+    "city": "Waterford",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Watsonville",
+    "county": "Santa Cruz"
+  },
+  {
+    "city": "Watts",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Waukena",
+    "county": "Tulare"
+  },
+  {
+    "city": "Wawona",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Weaverville",
+    "county": "Trinity"
+  },
+  {
+    "city": "Weed",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Weimar",
+    "county": "Placer"
+  },
+  {
+    "city": "Weldon",
+    "county": "Kern"
+  },
+  {
+    "city": "Wendel",
+    "county": "Lassen"
+  },
+  {
+    "city": "Weott",
+    "county": "Humboldt"
+  },
+  {
+    "city": "West Covina",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "West Hills (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "West Hollywood",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "West Los Angeles (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "West Point",
+    "county": "Calaveras"
+  },
+  {
+    "city": "West Sacramento",
+    "county": "Yolo"
+  },
+  {
+    "city": "Westchester (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Westend",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Westhaven",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Westlake (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Westlake Village (Thousand Oaks)",
+    "county": "Ventura"
+  },
+  {
+    "city": "Westlake Village",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Westley",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Westminster",
+    "county": "Orange"
+  },
+  {
+    "city": "Westmorland",
+    "county": "Imperial"
+  },
+  {
+    "city": "Westport",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Westside",
+    "county": "Stanislaus"
+  },
+  {
+    "city": "Westwood",
+    "county": "Lassen"
+  },
+  {
+    "city": "Westwood (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Wheatland",
+    "county": "Yuba"
+  },
+  {
+    "city": "Wheeler Ridge",
+    "county": "Kern"
+  },
+  {
+    "city": "Whiskeytown",
+    "county": "Shasta"
+  },
+  {
+    "city": "Whispering Pines",
+    "county": "Lake"
+  },
+  {
+    "city": "White Pines",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Whitethorn",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Whitewater",
+    "county": "Riverside"
+  },
+  {
+    "city": "Whitlow",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Whitmore",
+    "county": "Shasta"
+  },
+  {
+    "city": "Whittier",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Wildomar",
+    "county": "Riverside"
+  },
+  {
+    "city": "Wildwood",
+    "county": "Shasta"
+  },
+  {
+    "city": "Williams",
+    "county": "Colusa"
+  },
+  {
+    "city": "Willits",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Willow Creek",
+    "county": "Humboldt"
+  },
+  {
+    "city": "Willow Ranch",
+    "county": "Modoc"
+  },
+  {
+    "city": "Willowbrook",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Willows",
+    "county": "Glenn"
+  },
+  {
+    "city": "Wilmington (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Wilseyville",
+    "county": "Calaveras"
+  },
+  {
+    "city": "Wilsona Gardens",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Wilton",
+    "county": "Sacramento"
+  },
+  {
+    "city": "Winchester",
+    "county": "Riverside"
+  },
+  {
+    "city": "Windsor Hills",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Windsor",
+    "county": "Sonoma"
+  },
+  {
+    "city": "Winnetka (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Winterhaven",
+    "county": "Imperial"
+  },
+  {
+    "city": "Winters",
+    "county": "Yolo"
+  },
+  {
+    "city": "Winton",
+    "county": "Merced"
+  },
+  {
+    "city": "Wishon",
+    "county": "Madera"
+  },
+  {
+    "city": "Witter Springs",
+    "county": "Lake"
+  },
+  {
+    "city": "Wofford Heights",
+    "county": "Kern"
+  },
+  {
+    "city": "Woodacre",
+    "county": "Marin"
+  },
+  {
+    "city": "Woodbridge",
+    "county": "San Joaquin"
+  },
+  {
+    "city": "Woodfords",
+    "county": "Alpine"
+  },
+  {
+    "city": "Woodlake",
+    "county": "Tulare"
+  },
+  {
+    "city": "Woodland Hills (Los Angeles)",
+    "county": "Los Angeles"
+  },
+  {
+    "city": "Woodland",
+    "county": "Yolo"
+  },
+  {
+    "city": "Woodleaf",
+    "county": "Yuba"
+  },
+  {
+    "city": "Woodside",
+    "county": "San Mateo"
+  },
+  {
+    "city": "Woodville",
+    "county": "Tulare"
+  },
+  {
+    "city": "Woody",
+    "county": "Kern"
+  },
+  {
+    "city": "Wrightwood",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Yankee Hill",
+    "county": "Butte"
+  },
+  {
+    "city": "Yermo",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Yettem",
+    "county": "Tulare"
+  },
+  {
+    "city": "Yolo",
+    "county": "Yolo"
+  },
+  {
+    "city": "Yorba Linda",
+    "county": "Orange"
+  },
+  {
+    "city": "Yorkville",
+    "county": "Mendocino"
+  },
+  {
+    "city": "Yosemite Lodge",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Yosemite National Park",
+    "county": "Mariposa"
+  },
+  {
+    "city": "Yountville",
+    "county": "Napa"
+  },
+  {
+    "city": "Yreka",
+    "county": "Siskiyou"
+  },
+  {
+    "city": "Yuba City",
+    "county": "Sutter"
+  },
+  {
+    "city": "Yucaipa",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Yucca Valley",
+    "county": "San Bernardino"
+  },
+  {
+    "city": "Zamora",
+    "county": "Yolo"
+  },
+  {
+    "city": "Zenia",
+    "county": "Trinity"
+  }
+]

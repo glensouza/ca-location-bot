@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
-const dialogflowURL = 'http://localhost:3000/getBotResponse';
-
 @Component({
   selector: 'app-bot',
   templateUrl: './bot.component.html',
@@ -39,7 +37,7 @@ export class BotComponent implements OnInit {
 
     // Make the request 
     this.http.post<any>(
-      dialogflowURL,
+      "/api/bot",
       {
         sessionId: this.sessionId,
         queryInput: {
