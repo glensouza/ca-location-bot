@@ -4,7 +4,7 @@ public class GeoLite2Service : IDisposable
 {
     private const string GeoDirectory = "GeoLite2-City";
     private const string GeoFileName = $"{GeoDirectory}\\GeoLite2-City.mmdb";
-    private readonly string geoTarFileName = $"{Path.GetTempPath()}\\{GeoFileName}.tar.gz";
+    private readonly string geoTarFileName = $"{Path.GetTempPath()}\\GeoLite2-City.tar.gz";
     private readonly DatabaseReader reader;
 
     public GeoLite2Service(string licenseKey)
