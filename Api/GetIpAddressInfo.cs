@@ -4,7 +4,7 @@ public static class GetIpAddressInfo
 {
     [FunctionName("GetIpAddressInfo")]
     public static async Task<IActionResult> Run(
-        [HttpTrigger(AuthorizationLevel.Function, "get", Route = null)] HttpRequest req,
+        [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
         ILogger log)
     {
         log.LogInformation("C# HTTP trigger function \"GetIpAddressInfo\" received a request.");
