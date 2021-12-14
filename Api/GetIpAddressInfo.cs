@@ -20,15 +20,25 @@ public static class GetIpAddressInfo
             : $"Received IP Address from client: {clientIpAddress}.");
 
         string remoteIpAddress = req.HttpContext.Connection.RemoteIpAddress.ToString();
+        log.LogInformation(string.IsNullOrEmpty(remoteIpAddress)
+            ? "No IP Address found for remote request."
+            : $"Found remote IP Address from client: {remoteIpAddress}.");
 
 #if DEBUG
         log.LogInformation("Running in debug mode.");
         if (remoteIpAddress == "127.0.0.1")
         {
-            using HttpClient client = new();
-            HttpResponseMessage resp = await client.GetAsync("https://api.ipify.org/");
-            remoteIpAddress = await resp.Content.ReadAsStringAsync();
-            log.LogInformation($"Local request is running as IP Address {remoteIpAddress}.");
+            if (string.IsNullOrEmpty(clientIpAddress))
+            {
+                using HttpClient client = new();
+                HttpResponseMessage resp = await client.GetAsync("https://api.ipify.org/");
+                remoteIpAddress = await resp.Content.ReadAsStringAsync();
+                log.LogInformation($"Local request is running as IP Address {remoteIpAddress}.");
+            }
+            else
+            {
+                remoteIpAddress = clientIpAddress;
+            }
         }
 #else
         log.LogInformation($"Remote request identified as coming from IP Address {remoteIpAddress}.");
@@ -59,6 +69,29 @@ public static class GetIpAddressInfo
         catch (Exception ex)
         {
             log.LogError($"Exception in reading from GeoLite database: {ex.Message}.");
+            if (!string.IsNullOrEmpty(clientIpAddress))
+            {
+                returnValues.Add(new ViewModel
+                {
+                    City = string.Empty,
+                    Country = string.Empty,
+                    County = string.Empty,
+                    IpAddress = clientIpAddress,
+                    State = string.Empty
+                });
+            }
+
+            if (clientIpAddress != remoteIpAddress && !string.IsNullOrEmpty(remoteIpAddress))
+            {
+                returnValues.Add(new ViewModel
+                {
+                    City = string.Empty,
+                    Country = string.Empty,
+                    County = string.Empty,
+                    IpAddress = remoteIpAddress,
+                    State = string.Empty
+                });
+            }
         }
 
         // check if ip address is in california

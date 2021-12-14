@@ -4,7 +4,7 @@ public class GeoLite2Service : IDisposable
 {
     private const string GeoDirectory = "GeoLite2-City";
     private const string GeoFileName = $"{GeoDirectory}\\GeoLite2-City.mmdb";
-    private const string GeoTarFileName = $"{GeoFileName}.tar.gz";
+    private readonly string geoTarFileName = $"{Path.GetTempPath()}\\{GeoFileName}.tar.gz";
     private readonly DatabaseReader reader;
 
     public GeoLite2Service(string licenseKey)
@@ -12,9 +12,9 @@ public class GeoLite2Service : IDisposable
         // check if database file exists and is older than a day
         if (!File.Exists(GeoFileName) || File.GetLastWriteTimeUtc(GeoFileName) < DateTime.UtcNow.AddDays(-1))
         {
-            if (File.Exists(GeoTarFileName))
+            if (File.Exists(this.geoTarFileName))
             {
-                File.Delete(GeoTarFileName);
+                File.Delete(this.geoTarFileName);
             }
 
             if (File.Exists(GeoFileName))
@@ -25,16 +25,15 @@ public class GeoLite2Service : IDisposable
             Uri uri = new($"https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key={licenseKey}&suffix=tar.gz");
             using HttpClient client = new();
             byte[] fileBytes = client.GetByteArrayAsync(uri).Result;
-            File.WriteAllBytes($"{GeoFileName}.tar.gz", fileBytes);
-
-            using Stream inStream = File.OpenRead($"{GeoFileName}.tar.gz");
+            File.WriteAllBytes(this.geoTarFileName, fileBytes);
+            using Stream inStream = File.OpenRead(this.geoTarFileName);
             using Stream gzipStream = new GZipInputStream(inStream);
             TarArchive tarArchive = TarArchive.CreateInputTarArchive(gzipStream);
             tarArchive.ExtractContents(".");
             tarArchive.Close();
             gzipStream.Close();
             inStream.Close();
-            File.Delete(GeoTarFileName);
+            File.Delete(this.geoTarFileName);
 
             string directory = Directory.GetDirectories(".").FirstOrDefault(s => s.Contains("GeoLite2-City_"));
             if (string.IsNullOrEmpty(directory))
