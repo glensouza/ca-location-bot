@@ -9,9 +9,13 @@ public class GeoLite2Service : IDisposable
     public GeoLite2Service(string licenseKey, ILogger logger)
     {
         this.logger = logger;
+
         string tempPath = Path.GetTempPath();
-        string geoDirectory = tempPath + GeoLite2City;
-        string geoFileName = $"{geoDirectory}\\GeoLite2-City.mmdb";
+        string geoLiteDirectory = Directory.GetDirectories(tempPath).OrderByDescending(s => s).FirstOrDefault(s => s.Contains($"{GeoLite2City}_"));
+        string geoDirectory = string.IsNullOrEmpty(geoLiteDirectory)
+            ? tempPath + GeoLite2City
+            : geoLiteDirectory + GeoLite2City;
+        string geoFileName = $"{geoDirectory}\\{GeoLite2City}.mmdb";
 
         // check if database file exists and is older than a day
         if (!File.Exists(geoFileName) || File.GetLastWriteTimeUtc(geoFileName) < DateTime.UtcNow.AddDays(-1))
@@ -46,31 +50,16 @@ public class GeoLite2Service : IDisposable
             gzipStream.Close();
             fileStream.Close();
 
-            string directory = Directory.GetDirectories(tempPath).FirstOrDefault(s => s.Contains("GeoLite2-City_"));
+            string directory = Directory.GetDirectories(tempPath).FirstOrDefault(s => s.Contains($"{GeoLite2City}_"));
             if (string.IsNullOrEmpty(directory))
             {
                 logger.LogError("Couldn't download the Geo database file properly.");
                 throw new Exception("Couldn't download the Geo database file properly.");
             }
 
-            try
-            {
-                logger.LogInformation($"Deleting directory {geoDirectory}");
-                Directory.Delete(geoDirectory, true);
-            }
-            catch (IOException)
-            {
-                logger.LogError($"Deleting directory {geoDirectory} again in IOException.");
-                Directory.Delete(geoDirectory, true);
-            }
-            catch (UnauthorizedAccessException)
-            {
-                logger.LogError($"Deleting directory {geoDirectory} again in UnauthorizedAccessException.");
-                Directory.Delete(geoDirectory, true);
-            }
-
-            logger.LogInformation($"Renaming directory {directory} to {geoDirectory}.");
-            Directory.Move(directory, geoDirectory);
+            geoDirectory = directory + GeoLite2City;
+            geoFileName = $"{geoDirectory}\\{GeoLite2City}.mmdb";
+            logger.LogInformation($"Moving forward with file {geoDirectory}.");
         }
 
         /*
