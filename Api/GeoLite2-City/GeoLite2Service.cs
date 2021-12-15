@@ -50,16 +50,15 @@ public class GeoLite2Service : IDisposable
             gzipStream.Close();
             fileStream.Close();
 
-            string directory = Directory.GetDirectories(tempPath).FirstOrDefault(s => s.Contains($"{GeoLite2City}_"));
+            string directory = Directory.GetDirectories(tempPath).OrderByDescending(s => s).FirstOrDefault(s => s.Contains($"{GeoLite2City}_"));
             if (string.IsNullOrEmpty(directory))
             {
                 logger.LogError("Couldn't download the Geo database file properly.");
                 throw new Exception("Couldn't download the Geo database file properly.");
             }
 
-            geoDirectory = directory + GeoLite2City;
-            geoFileName = $"{geoDirectory}\\{GeoLite2City}.mmdb";
-            logger.LogInformation($"Moving forward with file {geoDirectory}.");
+            geoFileName = $"{directory}\\{GeoLite2City}.mmdb";
+            logger.LogInformation($"Moving forward with file {geoFileName}.");
         }
 
         /*
