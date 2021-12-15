@@ -1,7 +1,4 @@
-﻿using System.IO.Compression;
-using MaxMind.GeoIP2.Model;
-
-namespace CALocationBot.Api.GeoLite2_City;
+﻿namespace CALocationBot.Api.GeoLite2_City;
 
 public class GeoLite2Service : IDisposable
 {
@@ -12,7 +9,7 @@ public class GeoLite2Service : IDisposable
     public GeoLite2Service(string licenseKey, ILogger logger)
     {
         this.logger = logger;
-        string geoDirectory = $"{Directory.GetCurrentDirectory()}\\{GeoLite2City}";
+        string geoDirectory = $"{Path.GetTempPath()}\\{GeoLite2City}";
         string geoFileName = $"{geoDirectory}\\{geoDirectory}.mmdb";
 
         // check if database file exists and is older than a day
