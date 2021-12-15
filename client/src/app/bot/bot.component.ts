@@ -10,6 +10,7 @@ export class BotComponent implements OnInit {
   ipAddress:string = '';
   messages: any[] = [];
   loading: boolean = false;
+  step: number = 0;
 
   constructor(private http: HttpClient) { }
 
@@ -32,9 +33,12 @@ export class BotComponent implements OnInit {
         if (res.length > 0 && res[0].city != '' && res[0].county != null) {
           this.addBotMessage('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
           this.addBotMessage('Is this right?');
+          this.step = 1;
         }
         else {
           this.addBotMessage('I\'m sorry, I don\'t know where you are.');
+          this.addBotMessage('Please enter your California county if you know or at least your city.');
+          this.step = 2;
         }
       });  
     });
@@ -44,6 +48,52 @@ export class BotComponent implements OnInit {
     const text = event.message;
     this.addUserMessage(text);
     this.loading = true;
+
+    switch(this.step) {
+      case 0: // still figuring out where you are from IP Address
+        break;
+      case 1: // confirming yes or no from IP Address
+        if (text.toLowerCase() == 'yes') {
+          this.addBotMessage('Great! I\'ll transfer you to the live agent.');
+          this.step = 3;
+          // TODO: 
+          this.addBotMessage('I\'m transferring you to \'Batman\'.');
+          this.addBotMessage('Please wait while I connect you to \'Batman\'.');
+      }
+        else {
+          this.addBotMessage('I\'m sorry, I don\'t know where you are.');
+          this.addBotMessage('Please enter your California county if you know or at least your city.');
+          this.step = 2;
+        }
+        break;
+      case 2: // getting county from IP Address
+        this.loading = true;
+        this.http.get("/api/GetCounty?city=" + text).subscribe((res:any)=>{
+          this.loading = false;
+          if (res.length > 0) {
+            this.addBotMessage('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
+            this.addBotMessage('Is this right?');
+            this.step = 1;
+          }
+          else {
+            this.addBotMessage('I\'m sorry, I don\'t know where you are.');
+            this.addBotMessage('Please enter your California county if you know or at least your city.');
+          }
+        });
+        break;
+      case 3: // speak live agent
+        this.loading = true;
+        // TODO:
+        this.addBotMessage('Because I\'m Batman.');
+        //this.http.get("/api/AskBatman?text=" + text).subscribe((res:any)=>{
+        //  this.loading = false;
+        //  this.addBotMessage(res);
+        //});
+        break;
+      default:
+        this.addBotMessage('I\'m sorry, I don\'t know what you mean.');
+        break;
+    }  
 
     // Make the request 
     this.http.post<any>(
