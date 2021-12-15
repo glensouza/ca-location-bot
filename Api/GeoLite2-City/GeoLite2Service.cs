@@ -10,7 +10,7 @@ public class GeoLite2Service : IDisposable
     {
         this.logger = logger;
         string tempPath = Path.GetTempPath();
-        string geoDirectory = $"{tempPath}\\{GeoLite2City}";
+        string geoDirectory = tempPath + GeoLite2City;
         string geoFileName = $"{geoDirectory}\\GeoLite2-City.mmdb";
 
         // check if database file exists and is older than a day
