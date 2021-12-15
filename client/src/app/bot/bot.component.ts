@@ -28,8 +28,14 @@ export class BotComponent implements OnInit {
       this.addBotMessage('Checking what the server has to say about it...');   
       this.http.get("/api/GetIpAddressInfo?ipAddress=" + this.ipAddress).subscribe((res:any)=>{
         debugger;
-        this.addBotMessage('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
-        this.addBotMessage('Is this right?');   
+        if (res.length > 0){
+          // TODO: Loop through the results and add them to the chat
+          this.addBotMessage('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
+          this.addBotMessage('Is this right?');  
+        }
+        else {
+          this.addBotMessage('I\'m sorry, I don\'t know where you are.');
+        }
       });  
     });
   }

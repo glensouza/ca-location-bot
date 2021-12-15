@@ -1,32 +1,27 @@
 ﻿using System.IO.Compression;
+using MaxMind.GeoIP2.Model;
 
 namespace CALocationBot.Api.GeoLite2_City;
 
 public class GeoLite2Service : IDisposable
 {
-    private const string GeoDirectory = "GeoLite2-City";
-    private const string GeoFileName = $"{GeoDirectory}\\{GeoDirectory}.mmdb";
-    private readonly string geoTarFileName = $"{Path.GetTempPath()}\\{GeoDirectory}.tar.gz";
+    private const string GeoLite2City = "GeoLite2-City";
     private readonly DatabaseReader reader;
     private readonly ILogger logger;
 
     public GeoLite2Service(string licenseKey, ILogger logger)
     {
         this.logger = logger;
+        string geoDirectory = $"{Directory.GetCurrentDirectory()}\\{GeoLite2City}";
+        string geoFileName = $"{geoDirectory}\\{geoDirectory}.mmdb";
 
         // check if database file exists and is older than a day
-        if (!File.Exists(GeoFileName) || File.GetLastWriteTimeUtc(GeoFileName) < DateTime.UtcNow.AddDays(-1))
+        if (!File.Exists(geoFileName) || File.GetLastWriteTimeUtc(geoFileName) < DateTime.UtcNow.AddDays(-1))
         {
-            if (File.Exists(this.geoTarFileName))
+            if (File.Exists(geoFileName))
             {
-                logger.LogInformation($"Deleting existing tar file {this.geoTarFileName}");
-                File.Delete(this.geoTarFileName);
-            }
-
-            if (File.Exists(GeoFileName))
-            {
-                logger.LogInformation($"Deleting existing geo file {GeoFileName}");
-                File.Delete(GeoFileName);
+                logger.LogInformation($"Deleting existing geo file {geoFileName}");
+                File.Delete(geoFileName);
             }
 
             Uri uri = new($"https://download.maxmind.com/app/geoip_download?edition_id=GeoLite2-City&license_key={licenseKey}&suffix=tar.gz");
@@ -52,8 +47,6 @@ public class GeoLite2Service : IDisposable
             tarArchive.Close();
             gzipStream.Close();
             fileStream.Close();
-            logger.LogInformation($"Deleting tar file {this.geoTarFileName}");
-            File.Delete(this.geoTarFileName);
 
             string directory = Directory.GetDirectories(".").FirstOrDefault(s => s.Contains("GeoLite2-City_"));
             if (string.IsNullOrEmpty(directory))
@@ -64,22 +57,22 @@ public class GeoLite2Service : IDisposable
 
             try
             {
-                logger.LogInformation($"Deleting directory {GeoDirectory}");
-                Directory.Delete(GeoDirectory, true);
+                logger.LogInformation($"Deleting directory {geoDirectory}");
+                Directory.Delete(geoDirectory, true);
             }
             catch (IOException)
             {
-                logger.LogError($"Deleting directory {GeoDirectory} again in IOException.");
-                Directory.Delete(GeoDirectory, true);
+                logger.LogError($"Deleting directory {geoDirectory} again in IOException.");
+                Directory.Delete(geoDirectory, true);
             }
             catch (UnauthorizedAccessException)
             {
-                logger.LogError($"Deleting directory {GeoDirectory} again in UnauthorizedAccessException.");
-                Directory.Delete(GeoDirectory, true);
+                logger.LogError($"Deleting directory {geoDirectory} again in UnauthorizedAccessException.");
+                Directory.Delete(geoDirectory, true);
             }
 
-            logger.LogInformation($"Renaming directory {directory} to {GeoDirectory}.");
-            Directory.Move(directory, GeoDirectory);
+            logger.LogInformation($"Renaming directory {directory} to {geoDirectory}.");
+            Directory.Move(directory, geoDirectory);
         }
 
         /*
@@ -87,7 +80,7 @@ public class GeoLite2Service : IDisposable
             https://maxmind.github.io/GeoIP2-dotnet/
             https://github.com/maxmind/GeoIP2-dotnet#city-database
         */
-        this.reader = new DatabaseReader(GeoFileName);
+        this.reader = new DatabaseReader(geoFileName);
     }
 
     public ViewModel GetCityForIpAddress(string ipAddress)
