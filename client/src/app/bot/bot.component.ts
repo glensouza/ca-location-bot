@@ -94,24 +94,6 @@ export class BotComponent implements OnInit {
         this.addBotMessage('I\'m sorry, I don\'t know what you mean.');
         break;
     }  
-
-    // Make the request 
-    this.http.post<any>(
-      "/api/bot",
-      {
-        queryInput: {
-          text: {
-            text,
-            languageCode: 'en-US'
-          }
-        }
-      }
-    )
-    .subscribe(res => {
-      const { fulfillmentText } = res;
-      this.addBotMessage(fulfillmentText);
-      this.loading = false;
-    });
   }
 
   addUserMessage(text: any) {
