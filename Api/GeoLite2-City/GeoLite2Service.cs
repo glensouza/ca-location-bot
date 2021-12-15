@@ -9,7 +9,8 @@ public class GeoLite2Service : IDisposable
     public GeoLite2Service(string licenseKey, ILogger logger)
     {
         this.logger = logger;
-        string geoDirectory = $"{Path.GetTempPath()}\\{GeoLite2City}";
+        string tempPath = Path.GetTempPath();
+        string geoDirectory = $"{tempPath}\\{GeoLite2City}";
         string geoFileName = $"{geoDirectory}\\{geoDirectory}.mmdb";
 
         // check if database file exists and is older than a day
@@ -34,7 +35,7 @@ public class GeoLite2Service : IDisposable
             logger.LogInformation("Extracting contents to directory");
             try
             {
-                tarArchive.ExtractContents(".");
+                tarArchive.ExtractContents(tempPath);
             }
             catch (Exception e)
             {
@@ -45,7 +46,7 @@ public class GeoLite2Service : IDisposable
             gzipStream.Close();
             fileStream.Close();
 
-            string directory = Directory.GetDirectories(".").FirstOrDefault(s => s.Contains("GeoLite2-City_"));
+            string directory = Directory.GetDirectories(tempPath).FirstOrDefault(s => s.Contains("GeoLite2-City_"));
             if (string.IsNullOrEmpty(directory))
             {
                 logger.LogError("Couldn't download the Geo database file properly.");
