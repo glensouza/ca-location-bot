@@ -27,6 +27,7 @@ export class BotComponent implements OnInit {
       this.addBotMessage('Your IP address is '+ this.ipAddress);
       this.addBotMessage('Checking what the server has to say about it...');   
       this.http.get("/api/GetIpAddressInfo?ipAddress=" + this.ipAddress).subscribe((res:any)=>{
+        console.log(res);
         debugger;
         if (res.length > 0 && res[0].city != '' && res[0].county != null) {
           this.addBotMessage('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
