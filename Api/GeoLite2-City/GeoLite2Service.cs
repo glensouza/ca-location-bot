@@ -40,7 +40,15 @@ public class GeoLite2Service : IDisposable
             logger.LogInformation("Attempting to decompress geoLite file 2/2");
             TarArchive tarArchive = TarArchive.CreateInputTarArchive(gzipStream);
             logger.LogInformation("Extracting contents to directory");
-            tarArchive.ExtractContents(".");
+            try
+            {
+                tarArchive.ExtractContents(".");
+            }
+            catch (Exception e)
+            {
+                logger.LogInformation($"Error while extracting contents: {e.Message}");
+            }
+
             tarArchive.Close();
             gzipStream.Close();
             fileStream.Close();
