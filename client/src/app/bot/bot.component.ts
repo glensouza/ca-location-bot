@@ -47,7 +47,6 @@ export class BotComponent implements OnInit {
   handleUserMessage(event: any) {
     const text = event.message;
     this.addUserMessage(text);
-    this.loading = true;
 
     switch(this.step) {
       case 0: // still figuring out where you are from IP Address
@@ -71,27 +70,47 @@ export class BotComponent implements OnInit {
         this.http.get("/api/GetCounty?city=" + text).subscribe((res:any)=>{
           this.loading = false;
           if (res.length > 0) {
-            this.addBotMessage('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
-            this.addBotMessage('Is this right?');
+            this.loading = true;
+            setTimeout(() => {
+              this.addBotMessage('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
+              setTimeout(() => {
+                this.addBotMessage('Is this right?');
+                this.loading = false;
+              }, 1000);
+            }, 1000);
             this.step = 1;
           }
           else {
-            this.addBotMessage('I\'m sorry, I don\'t know where you are.');
-            this.addBotMessage('Please enter your California county if you know or at least your city.');
+            this.loading = true;
+            setTimeout(() => {
+              this.addBotMessage('I\'m sorry, I don\'t know where you are.');
+              setTimeout(() => {
+                this.addBotMessage('Please enter your California county if you know or at least your city.');
+                this.loading = false;
+              }, 1000);
+            }, 1000);
           }
         });
         break;
       case 3: // speak live agent
-        this.loading = true;
         // TODO:
-        this.addBotMessage('Because I\'m Batman.');
+        this.loading = true;
+        setTimeout(() => {
+          this.loading = false;
+          this.addBotMessage('Because I\'m Batman.');
+        }, 500);
+        // this.loading = true;
         //this.http.get("/api/AskBatman?text=" + text).subscribe((res:any)=>{
         //  this.loading = false;
         //  this.addBotMessage(res);
         //});
         break;
       default:
-        this.addBotMessage('I\'m sorry, I don\'t know what you mean.');
+        this.loading = true;
+        setTimeout(() => {
+          this.loading = false;
+          this.addBotMessage('I\'m sorry, I don\'t know what you mean.');
+        }, 1000);
         break;
     }  
   }
