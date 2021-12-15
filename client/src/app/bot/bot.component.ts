@@ -10,8 +10,6 @@ export class BotComponent implements OnInit {
   ipAddress:string = '';
   messages: any[] = [];
   loading: boolean = false;
-  // Random ID to maintain session with server
-  sessionId = Math.random().toString(36).slice(-5);
 
   constructor(private http: HttpClient) { }
 
@@ -22,7 +20,9 @@ export class BotComponent implements OnInit {
 
   getIPAddress()
   {
+    this.loading = true;
     this.http.get("https://api.ipify.org/?format=json").subscribe((res:any)=>{
+      this.loading = false;
       this.ipAddress = res.ip;
       this.addBotMessage('Your IP address is '+ this.ipAddress);
       this.addBotMessage('Checking what the server has to say about it...');
@@ -41,17 +41,14 @@ export class BotComponent implements OnInit {
   }
 
   handleUserMessage(event: any) {
-    console.log(event);
     const text = event.message;
     this.addUserMessage(text);
-
     this.loading = true;
 
     // Make the request 
     this.http.post<any>(
       "/api/bot",
       {
-        sessionId: this.sessionId,
         queryInput: {
           text: {
             text,
@@ -71,8 +68,7 @@ export class BotComponent implements OnInit {
     this.messages.push({
       text,
       sender: 'You',
-      reply: true,
-      date: new Date()
+      reply: true
     });
   }
 
@@ -82,8 +78,7 @@ export class BotComponent implements OnInit {
     this.messages.push({
       text,
       sender: 'Bot',
-      avatar: avatar,
-      date: new Date()
+      avatar: avatar
     });
   }
 }
