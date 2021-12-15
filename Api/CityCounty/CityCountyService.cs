@@ -2,12 +2,13 @@
 
 public class CityCountyService : IDisposable
 {
-    public CityCountyService()
+    public CityCountyService(ExecutionContext context)
     {
-        this.AllCityCounties = JsonConvert.DeserializeObject<List<CityCountyModel>>(File.ReadAllText("CityCounty\\cityCounties.json"));
+        string localFile = Path.Combine(context.FunctionAppDirectory, "CityCounty", "cityCounties.json");
+        this.AllCityCounties = JsonConvert.DeserializeObject<List<CityCountyModel>>(File.ReadAllText(localFile));
     }
 
-    public List<CityCountyModel> AllCityCounties { get; set; }
+    public List<CityCountyModel> AllCityCounties { get; private set; }
 
     private void ReleaseUnmanagedResources()
     {

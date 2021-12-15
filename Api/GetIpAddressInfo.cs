@@ -5,6 +5,7 @@ public static class GetIpAddressInfo
     [FunctionName("GetIpAddressInfo")]
     public static async Task<IActionResult> Run(
         [HttpTrigger(AuthorizationLevel.Anonymous, "get", Route = null)] HttpRequest req,
+        ExecutionContext context,
         ILogger log)
     {
         log.LogInformation("C# HTTP trigger function \"GetIpAddressInfo\" received a request.");
@@ -105,7 +106,7 @@ public static class GetIpAddressInfo
             return new OkObjectResult(returnValues);
         }
 
-        using CityCountyService cityCounty = new();
+        using CityCountyService cityCounty = new(context);
         List<CityCountyModel> counties = cityCounty.AllCityCounties;
         foreach (ViewModel returnValue in returnValues.Where(returnValue => returnValue.State == "CA"))
         {
