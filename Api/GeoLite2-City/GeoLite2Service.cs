@@ -11,7 +11,7 @@ public class GeoLite2Service : IDisposable
         this.logger = logger;
         string tempPath = Path.GetTempPath();
         string geoDirectory = $"{tempPath}\\{GeoLite2City}";
-        string geoFileName = $"{geoDirectory}\\{geoDirectory}.mmdb";
+        string geoFileName = $"{geoDirectory}\\GeoLite2-City.mmdb";
 
         // check if database file exists and is older than a day
         if (!File.Exists(geoFileName) || File.GetLastWriteTimeUtc(geoFileName) < DateTime.UtcNow.AddDays(-1))
@@ -28,9 +28,9 @@ public class GeoLite2Service : IDisposable
             byte[] fileBytes = client.GetByteArrayAsync(uri).Result;
             logger.LogInformation("Downloaded fresh geoLite file");
             using MemoryStream fileStream = new(fileBytes);
-            logger.LogInformation("Attempting to decompress geoLite file 1/2");
+            logger.LogInformation("Attempting to decompress geoLite file 1/2 gzip");
             using Stream gzipStream = new GZipInputStream(fileStream);
-            logger.LogInformation("Attempting to decompress geoLite file 2/2");
+            logger.LogInformation("Attempting to decompress geoLite file 2/2 tar");
             TarArchive tarArchive = TarArchive.CreateInputTarArchive(gzipStream);
             logger.LogInformation("Extracting contents to directory");
             try
