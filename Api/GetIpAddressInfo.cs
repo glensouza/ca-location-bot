@@ -21,8 +21,8 @@ public static class GetIpAddressInfo
 
         string remoteIpAddress = req.HttpContext.Connection.RemoteIpAddress.ToString();
         log.LogInformation(string.IsNullOrEmpty(remoteIpAddress)
-            ? "No IP Address found for remote request."
-            : $"Found remote IP Address from client: {remoteIpAddress}.");
+            ? "No remote IP Address found for request."
+            : $"Found remote IP Address from request: {remoteIpAddress}.");
 
 #if DEBUG
         log.LogInformation("Running in debug mode.");
@@ -47,21 +47,25 @@ public static class GetIpAddressInfo
         List<ViewModel> returnValues = new();
         try
         {
-            using GeoLite2Service geoLite2 = new (Environment.GetEnvironmentVariable("GeoLiteLicenseKey"));
+            using GeoLite2Service geoLite2 = new (Environment.GetEnvironmentVariable("GeoLiteLicenseKey"), log);
             if (!string.IsNullOrEmpty(clientIpAddress))
             {
+                log.LogInformation($"Looking for city information for client IP Address: {clientIpAddress}");
                 ViewModel clientIpInfo = geoLite2.GetCityForIpAddress(clientIpAddress);
                 if (clientIpInfo != null)
                 {
+                    log.LogInformation($"Found client city {clientIpInfo.City}");
                     returnValues.Add(clientIpInfo);
                 }
             }
 
             if (clientIpAddress != remoteIpAddress)
             {
+                log.LogInformation($"Looking for city information for remote IP Address: {clientIpAddress}");
                 ViewModel remoteIpInfo = geoLite2.GetCityForIpAddress(remoteIpAddress);
                 if (remoteIpInfo != null)
                 {
+                    log.LogInformation($"Found client city {remoteIpInfo.City}");
                     returnValues.Add(remoteIpInfo);
                 }
             }
