@@ -37,12 +37,12 @@ export class BotComponent implements OnInit, OnDestroy {
   getIPAddress()
   {
     this.loading = true;
-    this.http.get("https://api.ipify.org/?format=json").subscribe((res:any)=>{
+    this.http.get('https://api.ipify.org/?format=json').subscribe((res:any)=>{
       this.ipAddress = res.ip;
       this.futureMessages.push('Your IP address is '+ this.ipAddress);
       this.futureMessages.push('Checking what the server has to say about it...');
       this.loading = true;
-      this.http.get("/api/GetIpAddressInfo?ipAddress=" + this.ipAddress).subscribe((res:any)=>{
+      this.http.get('/api/GetIpAddressInfo?ipAddress=' + this.ipAddress).subscribe((res:any)=>{
         if (res.length > 0 && res[0].city != '' && res[0].county != null) {
           this.futureMessages.push('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
           this.futureMessages.push('Is this right?');
@@ -85,7 +85,7 @@ export class BotComponent implements OnInit, OnDestroy {
         break;
       case 2: // getting county from IP Address
         this.loading = true;
-        this.http.get("/api/GetCountyFromText?text=" + text).subscribe((res:any)=>{
+        this.http.get('/api/GetCountyFromText?text=' + text).subscribe((res:any)=>{
           if (res == null) {
             this.futureMessages.push('I\'m sorry, I don\'t know where you are.');
             this.futureMessages.push('Please try again by entering your California county if you know or at least your city.');
@@ -99,10 +99,13 @@ export class BotComponent implements OnInit, OnDestroy {
         break;
       case 3: // speak live agent
         this.loading = true;
-        this.http.get("/api/TalkToBatman?question=" + text).subscribe((res:any)=>{
-          // this.futureMessages.push('Because I\'m Batman.');
-          debugger;
-          this.futureMessages.push(res);
+        this.http.get('/api/TalkToBatman?question=' + text).subscribe((res:any) => {
+          if (res != undefined && res != null && res.answer != undefined && res.answer != null && res.answer != '') {
+            this.futureMessages.push(res.answer);
+          }
+          else{
+            this.futureMessages.push('Because I\'m Batman.');
+          }
         });
         break;
       default:

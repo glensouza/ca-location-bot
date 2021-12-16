@@ -24,6 +24,6 @@ public class TalkToBatman
         string qnaEndpointHostName = Environment.GetEnvironmentVariable("QnAEndpointHostName");
         Talk batman = new(this.httpClient, qnaKnowledgebaseId, qnaEndpointKey, qnaEndpointHostName);
         string answer = await batman.AskQuestion(question);
-        return new OkObjectResult(answer);
+        return new OkObjectResult(new {Answer = answer});
     }
 }
