@@ -13,6 +13,7 @@ export class BotComponent implements OnInit, OnDestroy {
   messages: any[] = [];
   loading: boolean = false;
   step: number = 0;
+  county: string = '';
 
   constructor(private http: HttpClient) { }
   ngOnInit(): void {
@@ -45,6 +46,7 @@ export class BotComponent implements OnInit, OnDestroy {
         if (res.length > 0 && res[0].city != '' && res[0].county != null) {
           this.futureMessages.push('The server says you\'re in '+ res[0].city + ' which is in "' + res[0].county + '" county.');
           this.futureMessages.push('Is this right?');
+          this.county = res[0].county;
           this.step = 1;
         }
         else {
@@ -71,7 +73,7 @@ export class BotComponent implements OnInit, OnDestroy {
           this.futureMessages.push('You are now connected to \'Batman\'.');
           setTimeout(() => {
             this.step = 3;
-            this.futureMessages.push('I\'m Batman, I see you\'re from COUNTY county.');
+            this.futureMessages.push('I\'m Batman, I see you\'re from "' + this.county + '" county.');
             this.futureMessages.push('Ask me anything.');
           }, 10000);
         }
@@ -90,17 +92,18 @@ export class BotComponent implements OnInit, OnDestroy {
           }
           else {
             this.futureMessages.push('Did you mean the city of '+ res.city + ' which is in "' + res.county + '" county?');
+            this.county = res.county;
             this.step = 1;
           }
         });
         break;
       case 3: // speak live agent
-        // TODO:
-        this.futureMessages.push('Because I\'m Batman.');
-        // this.loading = true;
-        //this.http.get("/api/AskBatman?text=" + text).subscribe((res:any)=>{
-        //  this.futureMessages.push(res);
-        //});
+        this.loading = true;
+        this.http.get("/api/TalkToBatman?question=" + text).subscribe((res:any)=>{
+          // this.futureMessages.push('Because I\'m Batman.');
+          debugger;
+          this.futureMessages.push(res);
+        });
         break;
       default:
         this.futureMessages.push('I\'m sorry, I don\'t know what you mean.');
