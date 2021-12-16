@@ -6,16 +6,16 @@ public class GeoLite2Service : IDisposable
     private readonly DatabaseReader reader;
     private readonly ILogger logger;
 
-    public GeoLite2Service(string licenseKey, ILogger logger)
+    public GeoLite2Service(string licenseKey, ExecutionContext context, ILogger logger)
     {
         this.logger = logger;
 
         string tempPath = Path.GetTempPath();
         string geoLiteDirectory = Directory.GetDirectories(tempPath).OrderByDescending(s => s).FirstOrDefault(s => s.Contains($"{GeoLite2City}_"));
         string geoDirectory = string.IsNullOrEmpty(geoLiteDirectory)
-            ? tempPath + GeoLite2City
-            : geoLiteDirectory + GeoLite2City;
-        string geoFileName = $"{geoDirectory}\\{GeoLite2City}.mmdb";
+            ? Path.Combine(tempPath, GeoLite2City)
+            : Path.Combine(geoLiteDirectory, GeoLite2City);
+        string geoFileName = Path.Combine(geoDirectory, $"{GeoLite2City}.mmdb");
 
         // check if database file exists and is older than a day
         if (!File.Exists(geoFileName) || File.GetLastWriteTimeUtc(geoFileName) < DateTime.UtcNow.AddDays(-1))
@@ -54,10 +54,14 @@ public class GeoLite2Service : IDisposable
             if (string.IsNullOrEmpty(directory))
             {
                 logger.LogError("Couldn't download the Geo database file properly.");
-                throw new Exception("Couldn't download the Geo database file properly.");
+                logger.LogInformation("Using file included in source code artifact.");
+                geoFileName = Path.Combine(context.FunctionAppDirectory, "GeoLite2-City", $"{GeoLite2City}.mmdb");
+            }
+            else
+            {
+                geoFileName = Path.Combine(directory, $"{GeoLite2City}.mmdb");
             }
 
-            geoFileName = $"{directory}\\{GeoLite2City}.mmdb";
             logger.LogInformation($"Moving forward with file {geoFileName}.");
         }
 
@@ -69,7 +73,7 @@ public class GeoLite2Service : IDisposable
         this.reader = new DatabaseReader(geoFileName);
     }
 
-    public ViewModel GetCityForIpAddress(string ipAddress)
+    public CityCountyViewModel GetCityForIpAddress(string ipAddress)
     {
         CityResponse city = null;
         try
@@ -83,7 +87,7 @@ public class GeoLite2Service : IDisposable
             logger.LogError($"Error reading city from IP Address {ipAddress}");
         }
 
-        ViewModel returnValue = new()
+        CityCountyViewModel returnValue = new()
         {
             IpAddress = ipAddress,
             Country = city?.Country.IsoCode, // 'US'

@@ -11,11 +11,6 @@ public static class GetIpAddressInfo
         log.LogInformation("C# HTTP trigger function \"GetIpAddressInfo\" received a request.");
 
         string clientIpAddress = req.Query["ipAddress"];
-        if (string.IsNullOrEmpty(clientIpAddress))
-        {
-            clientIpAddress = await new StreamReader(req.Body).ReadToEndAsync();
-        }
-
         log.LogInformation(string.IsNullOrEmpty(clientIpAddress)
             ? "No IP Address passed in from client."
             : $"Received IP Address from client: {clientIpAddress}.");
@@ -45,14 +40,14 @@ public static class GetIpAddressInfo
         log.LogInformation($"Remote request identified as coming from IP Address {remoteIpAddress}.");
 #endif
 
-        List<ViewModel> returnValues = new();
+        List<CityCountyViewModel> returnValues = new();
         try
         {
-            using GeoLite2Service geoLite2 = new (Environment.GetEnvironmentVariable("GeoLiteLicenseKey"), log);
+            using GeoLite2Service geoLite2 = new (Environment.GetEnvironmentVariable("GeoLiteLicenseKey"), context, log);
             if (!string.IsNullOrEmpty(clientIpAddress))
             {
                 log.LogInformation($"Looking for city information for client IP Address: {clientIpAddress}");
-                ViewModel clientIpInfo = geoLite2.GetCityForIpAddress(clientIpAddress);
+                CityCountyViewModel clientIpInfo = geoLite2.GetCityForIpAddress(clientIpAddress);
                 if (clientIpInfo != null)
                 {
                     log.LogInformation($"Found client city {clientIpInfo.City}");
@@ -63,7 +58,7 @@ public static class GetIpAddressInfo
             if (clientIpAddress != remoteIpAddress)
             {
                 log.LogInformation($"Looking for city information for remote IP Address: {clientIpAddress}");
-                ViewModel remoteIpInfo = geoLite2.GetCityForIpAddress(remoteIpAddress);
+                CityCountyViewModel remoteIpInfo = geoLite2.GetCityForIpAddress(remoteIpAddress);
                 if (remoteIpInfo != null)
                 {
                     log.LogInformation($"Found client city {remoteIpInfo.City}");
@@ -76,7 +71,7 @@ public static class GetIpAddressInfo
             log.LogError($"Exception in reading from GeoLite database: {ex.Message}.");
             if (!string.IsNullOrEmpty(clientIpAddress))
             {
-                returnValues.Add(new ViewModel
+                returnValues.Add(new CityCountyViewModel
                 {
                     City = string.Empty,
                     Country = string.Empty,
@@ -88,7 +83,7 @@ public static class GetIpAddressInfo
 
             if (clientIpAddress != remoteIpAddress && !string.IsNullOrEmpty(remoteIpAddress))
             {
-                returnValues.Add(new ViewModel
+                returnValues.Add(new CityCountyViewModel
                 {
                     City = string.Empty,
                     Country = string.Empty,
@@ -108,7 +103,7 @@ public static class GetIpAddressInfo
 
         using CityCountyService cityCounty = new(context);
         List<CityCountyModel> counties = cityCounty.AllCityCounties;
-        foreach (ViewModel returnValue in returnValues.Where(returnValue => returnValue.State == "CA"))
+        foreach (CityCountyViewModel returnValue in returnValues.Where(returnValue => returnValue.State == "CA"))
         {
             // load json file counties (db)
             string returnValueCounty = counties.FirstOrDefault(s => s.City == returnValue.City)?.County;

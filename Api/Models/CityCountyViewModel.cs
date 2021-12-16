@@ -1,6 +1,6 @@
 ﻿namespace CALocationBot.Api.Models;
 
-public class ViewModel : CityCountyModel
+public class CityCountyViewModel : CityCountyModel
 {
     [JsonProperty("ipAddress")]
     public string IpAddress { get; set; }

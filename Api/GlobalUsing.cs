@@ -6,6 +6,12 @@ global using System.Net;
 global using System.Net.Http;
 global using System.Threading.Tasks;
 
+global using Azure;
+global using Azure.Search.Documents;
+global using Azure.Search.Documents.Indexes;
+global using Azure.Search.Documents.Indexes.Models;
+global using Azure.Search.Documents.Models;
+
 global using ICSharpCode.SharpZipLib.GZip;
 global using ICSharpCode.SharpZipLib.Tar;
 

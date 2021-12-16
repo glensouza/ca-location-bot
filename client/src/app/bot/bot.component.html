@@ -15,12 +15,12 @@
         [nbSpinner]="loading"
         nbSpinnerStatus="info"
         type="text"
-        avatar="/assets/bot.jpg"
+        avatar=""
         message="..."
       >
       </nb-chat-message>
   
-      <nb-chat-form (send)="handleUserMessage($event)" [dropFiles]="true">
+      <nb-chat-form *ngIf="step > 0" (send)="handleUserMessage($event)" [dropFiles]="true">
       </nb-chat-form>
     </nb-chat>
 </div>

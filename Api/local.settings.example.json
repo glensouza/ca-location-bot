@@ -4,7 +4,10 @@
     "AzureWebJobsStorage": "",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet",
     "GeoLiteAccountUserId": "00000",
-    "GeoLiteLicenseKey": "xxxxx"
+    "GeoLiteLicenseKey": "xxxxx",
+    "SearchServiceName": "xxxxx",
+    "SearchIndexName": "xxxxx",
+    "SearchApiKey": "XXXXX"
   },
   "Host": {
     "LocalHttpPort": 7071,
