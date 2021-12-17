@@ -19,7 +19,7 @@
       >
       </nb-chat-message>
   
-      <nb-chat-form *ngIf="step > 0" (send)="handleUserMessage($event)" [dropFiles]="true">
+      <nb-chat-form (send)="handleUserMessage($event)" [dropFiles]="true">
       </nb-chat-form>
     </nb-chat>
 </div>

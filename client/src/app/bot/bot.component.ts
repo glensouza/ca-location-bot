@@ -16,6 +16,7 @@ export class BotComponent implements OnInit, OnDestroy {
   county: string = '';
 
   constructor(private http: HttpClient) { }
+
   ngOnInit(): void {
     this.addBotMessage('Hello! I\'m CA Location chatbot.');
     this.interval = setInterval(() => {

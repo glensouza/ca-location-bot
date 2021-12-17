@@ -43,7 +43,7 @@ public static class GetIpAddressInfo
         List<CityCountyViewModel> returnValues = new();
         try
         {
-            using GeoLite2Service geoLite2 = new (Environment.GetEnvironmentVariable("GeoLiteLicenseKey"), context, log);
+            using GeoLite2Service geoLite2 = new (Environment.GetEnvironmentVariable("GeoLiteLicenseKey"), true, context, log);
             if (!string.IsNullOrEmpty(clientIpAddress))
             {
                 log.LogInformation($"Looking for city information for client IP Address: {clientIpAddress}");
@@ -55,7 +55,7 @@ public static class GetIpAddressInfo
                 }
             }
 
-            if (clientIpAddress != remoteIpAddress)
+            if (clientIpAddress != remoteIpAddress && remoteIpAddress.Length < 18)
             {
                 log.LogInformation($"Looking for city information for remote IP Address: {clientIpAddress}");
                 CityCountyViewModel remoteIpInfo = geoLite2.GetCityForIpAddress(remoteIpAddress);

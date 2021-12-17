@@ -6,16 +6,28 @@ public class GeoLite2Service : IDisposable
     private readonly DatabaseReader reader;
     private readonly ILogger logger;
 
-    public GeoLite2Service(string licenseKey, ExecutionContext context, ILogger logger)
+    public GeoLite2Service(string licenseKey, bool useLocalOnly, ExecutionContext context, ILogger logger)
     {
         this.logger = logger;
+        string geoFileName;
+        if (useLocalOnly)
+        {
+            geoFileName = Path.Combine(context.FunctionAppDirectory, "GeoLite2-City", $"{GeoLite2City}.mmdb");
+            /*
+                For database usage see the API documentation:
+                https://maxmind.github.io/GeoIP2-dotnet/
+                https://github.com/maxmind/GeoIP2-dotnet#city-database
+            */
+            this.reader = new DatabaseReader(geoFileName);
+            return;
+        }
 
         string tempPath = Path.GetTempPath();
         string geoLiteDirectory = Directory.GetDirectories(tempPath).OrderByDescending(s => s).FirstOrDefault(s => s.Contains($"{GeoLite2City}_"));
         string geoDirectory = string.IsNullOrEmpty(geoLiteDirectory)
             ? Path.Combine(tempPath, GeoLite2City)
             : Path.Combine(geoLiteDirectory, GeoLite2City);
-        string geoFileName = Path.Combine(geoDirectory, $"{GeoLite2City}.mmdb");
+        geoFileName = Path.Combine(geoDirectory, $"{GeoLite2City}.mmdb");
 
         // check if database file exists and is older than a day
         if (!File.Exists(geoFileName) || File.GetLastWriteTimeUtc(geoFileName) < DateTime.UtcNow.AddDays(-1))
@@ -65,11 +77,6 @@ public class GeoLite2Service : IDisposable
             logger.LogInformation($"Moving forward with file {geoFileName}.");
         }
 
-        /*
-            For database usage see the API documentation:
-            https://maxmind.github.io/GeoIP2-dotnet/
-            https://github.com/maxmind/GeoIP2-dotnet#city-database
-        */
         this.reader = new DatabaseReader(geoFileName);
     }
 
