@@ -4,9 +4,11 @@ public class Talk
 {
     private readonly HttpClient httpClient;
     private readonly string url;
+    private readonly ILogger logger;
 
-    public Talk(HttpClient httpClient, string qnaKnowledgebaseId, string qnaEndpointKey, string qnaEndpointHostName)
+    public Talk(HttpClient httpClient, string qnaKnowledgebaseId, string qnaEndpointKey, string qnaEndpointHostName, ILogger logger)
     {
+        this.logger = logger;
         this.httpClient = httpClient;
         this.httpClient.DefaultRequestHeaders.Add("Ocp-Apim-Subscription-Key", qnaEndpointKey);
         this.httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
@@ -20,12 +22,12 @@ public class Talk
             Top = 1,
             Question = question,
             IncludeUnstructuredSources = true,
-            ConfidenceScoreThreshold = ".75",
+            ConfidenceScoreThreshold = ".1",
             AnswerSpanRequest = new QnAParameterAnswerSpanRequest
             {
                 Enable = true,
                 TopAnswersWithSpan = 1,
-                ConfidenceScoreThreshold = ".75"
+                ConfidenceScoreThreshold = ".1"
             }
         };
         string json = JsonConvert.SerializeObject(parameters);

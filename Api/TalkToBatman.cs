@@ -22,7 +22,7 @@ public class TalkToBatman
         string qnaKnowledgebaseId = Environment.GetEnvironmentVariable("QnAKnowledgebaseId");
         string qnaEndpointKey = Environment.GetEnvironmentVariable("QnAEndpointKey");
         string qnaEndpointHostName = Environment.GetEnvironmentVariable("QnAEndpointHostName");
-        Talk batman = new(this.httpClient, qnaKnowledgebaseId, qnaEndpointKey, qnaEndpointHostName);
+        Talk batman = new(this.httpClient, qnaKnowledgebaseId, qnaEndpointKey, qnaEndpointHostName, log);
         string answer = await batman.AskQuestion(question);
         return new OkObjectResult(new {Answer = answer});
     }
