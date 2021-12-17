@@ -30,7 +30,7 @@ public class GeoLite2Service : IDisposable
         geoFileName = Path.Combine(geoDirectory, $"{GeoLite2City}.mmdb");
 
         // check if database file exists and is older than a day
-        if (!File.Exists(geoFileName) || File.GetLastWriteTimeUtc(geoFileName) < DateTime.UtcNow.AddDays(-1))
+        if (!File.Exists(geoFileName) || File.GetLastWriteTimeUtc(geoFileName) < DateTime.UtcNow.AddDays(-10))
         {
             if (File.Exists(geoFileName))
             {
